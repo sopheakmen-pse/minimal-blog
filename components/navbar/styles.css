@@ -39,5 +39,7 @@
   border-radius: 20px;
 }
 .navbar-iterm a:hover{
-color: red;
+ background: linear-gradient(45deg,rgb(191, 5, 5),rgb(230, 159, 27));
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
 }

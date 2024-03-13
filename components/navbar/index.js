@@ -12,8 +12,5 @@ document.getElementById('container-navbar').innerHTML+=`
  <a href="">${navbar.catigory[2]}</a>
  </div>
  <div class ="subscribebtn" style="color:white;><a href="">${navbar.catigory[3]}</a></div>
-
-
-
 `;
 
