@@ -1,3 +1,4 @@
+
 const navbar = {
     logo: "Personaly",
     catigory:[ "Daily Digest", "Design Tools", "Tutorials", "Subscribe"]
@@ -15,3 +16,4 @@ document.getElementById('container-navbar').innerHTML+=`
 
 
 `;
+
