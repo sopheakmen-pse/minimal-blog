@@ -1,0 +1,30 @@
+h6, #button{
+    display: flex;
+    height: 40px;
+    width: 200px;
+    font-family: sans-serif;
+    background-color: rgb(236, 235, 235);
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    border-radius: 20px;
+    font-size: 15px;
+    color: rgb(76, 73, 73);
+    cursor: pointer;
+}
+h1{
+    font-weight: bold;
+    background: linear-gradient(60deg,rgb(227, 0, 0),rgb(237, 237, 0));
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 60px;
+}
+p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(123, 121, 121);
+}
