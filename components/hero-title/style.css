@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 13rem;
+}
+
+.title{
+    text-align: center;
+    margin: auto;
+    margin-top: 3rem;
+}
+.title h1{
+    background: linear-gradient(80deg,#C41740,#EA9C28);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    width: 60%;
+    font-size: 28px;
+    margin:auto ;
+    line-height: 36.4px;
+   
+}
+.title p{
+    color: #475467;
+    font-size: 18px;
+    line-height: 28px;
+    width: 25%;
+    margin:auto ; 
+    margin-top: 0.5rem;
+}
+#cht{
+   border-radius: 5px;
+   width: 250px;
+   padding: 20px;
+   font-size: 14px;
+   margin-left: 39%;
+   margin-top: 40px;
+}
