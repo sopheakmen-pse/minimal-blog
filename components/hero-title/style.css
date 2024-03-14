@@ -33,11 +33,27 @@
     margin:auto ; 
     margin-top: 0.5rem;
 }
-#cht{
-   border-radius: 5px;
-   width: 250px;
-   padding: 20px;
-   font-size: 14px;
-   margin-left: 39%;
-   margin-top: 40px;
+.box{
+    width: 350px;
+    display: flex;
+    border: 0.5px black solid;
+    margin: auto;
+    margin-top: 30px;
+}
+input{
+    width: 250px;
+    padding: 15px;
+    font-size: 14px;
+}
+.btn{
+    background-color: #1D2939;
+    padding: 15px ;
+    color: white;
+    font-size: 14px;
+    
+    width: 100px;
+}
+.btn:hover{
+    background-color: white;
+    color: #1D2939;
 }
