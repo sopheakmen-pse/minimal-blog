@@ -9,7 +9,7 @@ const article1 =
    secondaryImageUrl: "https://img.freepik.com/free-vector/1.jpg",
    publishDate: "2024-03-01",
    paragraphs: [
-    '1. Dark mode has emerged as a prominent trend in user interface design, captivating users with its sleek and modern aesthetic. With its dark color palette, dark mode offers a refreshing alternative to traditional light-themed interfaces, providing a visually appealing experience for users across various platforms and devices.',
+'1. Dark mode has emerged as a prominent trend in user interface design, captivating users with its sleek and modern aesthetic. With its dark color palette, dark mode offers a refreshing alternative to traditional light-themed interfaces, providing a visually appealing experience for users across various platforms and devices.',
 
 '2. The adoption of dark mode has been driven by its practical benefits, such as reducing eye strain and minimizing screen glare, particularly in low-light environments. This feature has gained traction among users who seek a more comfortable and ergonomic viewing experience, especially during nighttime browsing sessions.',
 
@@ -419,14 +419,14 @@ let articles = [article1, article2, article3, article4, article5, article6, arti
 
 // document.getElementById('articleContainer').innerHTML+=`
 // <div class="article">
-// <img class="pic" src="${article13.primaryImageUrl}"></img>
-// ${article13.category}
+ 
 // <div class="content">
-// ${article13.paragraphs}
+//  ${article13.category} <br>
+//  ${article13.paragraphs[0]}
+// <img class="pic" src="${article13.primaryImageUrl}"></img>
 // </div>
 
 // </div>
-
 // `;
 
 // for (let i = 0; i < articles.length; i++) {
@@ -434,13 +434,16 @@ let articles = [article1, article2, article3, article4, article5, article6, arti
 // }
 
 for (let i = 0; i < articles.length; i++){
-if (articles[i].category === "daily trends"){
+if (articles[i].category === "tutorials"){
   document.getElementById('articleContainer').innerHTML +=`
-  <div class="border">
-  <div class="content">${articles[i].category}</div>
-  <div class="img"><img src="${articles[i].primaryImageUrl}"></img></div> 
-  <div class="para">${articles.paragraphs}</div>
+  <div class="article">
+     <div class="content">
+     ${articles[i].category} <br>
+     ${articles[i].paragraphs[0]}
+  <img class="pic" src="${articles[i].primaryImageUrl}">
   </div>
+  </div>
+   
   `
 };
 };
