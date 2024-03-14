@@ -1,14 +1,18 @@
-.subscribe{
+header{
+  margin-top: 10%;
+}
+.subscribe {
     padding: 10px 15px;
     border: none;
     border-radius: 6px;
-    background-color: rgb(34, 39, 61);
+    background-color:#1D2939;
     color: white;
     font-size: 17px;
     letter-spacing: 0.5px;
     cursor: pointer;
     content: 'subscribe';
     margin-right: 3%;
+    text-decoration: none;
    
 }
 .subscribe:hover{
@@ -29,6 +33,7 @@
     cursor: pointer;
     content: 'subscribe';
     margin-right: 3%;
+    text-decoration: none;
    
 }
 .subscribe-1:hover{

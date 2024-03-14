@@ -5,41 +5,9 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
-header{
+body{
     background-color: white;
 }
-li{
-    list-style: none;
-}
-a{
-    color: black;
-    text-decoration: none;
-}
-.logo{
-    width: 30%;
-    height: auto;
-    overflow: hidden;
-    /* background-color: blueviolet;  */
-}
-.navbar{
-    min-height: 70px;
-    display: flex;
-    justify-content: none ; 
-    align-items: center;
-    padding: 0 24px;
-    background-color: aqua;
-}
-.nav-menu{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    gap: 40px;
-    margin-right:10%;
-    width: 70%;
-    font-size: 20px;
-
-}
-
 .nav-branding{
     font-size: 25px;
     font-weight: bold;
@@ -47,111 +15,73 @@ a{
 sup{
     font-size: 10px;
 }
-.nav-link{
+a{
+    color: black;
+    text-decoration: none;
+}
+.logo {
+    text-decoration: none;
+    margin-left: 3%;
+}
+header{
+    min-height: 70px;
+    display: flex;
+    justify-content: none ; 
+    align-items: center;
+    padding: 0 24px;
+    background-color: aqua;   
+    justify-content: space-between;
+}
+.navbar{
+    margin-left: 50%;
+}
+.navbar a{
     transition: 0.5s ease;
     color: #1D2939;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;  
 }
-.nav-link:hover{
-  font-weight: bold;
-  background-image: linear-gradient(to right, #C41740 , #EA9C28);
-  -webkit-background-clip: text;
-  color: transparent;
-  transition: 0.5s ease;
+.navbar a:hover{
+    font-weight: bold;
+    background-image: linear-gradient(to right, #C41740 , #EA9C28);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 0.5s ease;
 }
-
-
-@media(max-width:768px){
-    .hamburger{
-        display: black;
-    }
-    .hamburger.active .bar:nth-child(0){
-        opacity: 0;
-    }
-    .hamburger.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
-    .hamburger.active .bar:nth-child(2){
-        transform: translateY(-8px) rotate(-45deg);
-    }
-   .nav-menu{
-        position: fixed;
-        left: -100%;
-        top: 70px;
-        gap: 0;
-        flex-direction: column;
-        background-color: rgb(51, 50, 50);
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-   } 
-   .nav-item{
-    margin: 16px 0;
-
-   }
-   .nav-item a{
-    color: aliceblue;
-   }
-   .nav-menu.active{
-    left: 0;
-   }
-   .hamburger{
-    display: none;
-    cursor: pointer;
-    justify-content: end;
-   
-}
-   .bar{
-    display: block;
-    width: 30px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background: #1D2939;
-}
-    .bar-1{
-        display: block;
-        width: 17px;
-        height: 3px;
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-        background: #1D2939;
-    }
-    
-}
-/* button subscribe */
-.subscribe{
+.subscribe {
     padding: 10px 15px;
     border: none;
     border-radius: 6px;
-    background-color: rgb(34, 39, 61);
+    background-color:#1D2939;
     color: white;
     font-size: 17px;
     letter-spacing: 0.5px;
     cursor: pointer;
     content: 'subscribe';
-    margin-right: 3%;
+    text-decoration: none;
+    margin-right: 4%;
+  
    
 }
 .subscribe:hover{
   background-color: white;
   color: black;
-  border: 1px solid black;
+  border: 1px solid #1D2939;
   transition: 0.5s ease;
   
 }
 /* component hero */
 .hero h1{
-    font-size:  95px;
+    font-size:  76px;
     text-align: center;
     background-image: linear-gradient(to right, #C41740 , #EA9C28);
     -webkit-background-clip: text;
     color: transparent;
     margin-top: 1%;
-
 }
 .hero p{
-    font-size: 40px;
+    font-size: 28px;
     text-align: center;
     color: #475467;
     margin-top:1% ;
