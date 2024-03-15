@@ -1,0 +1,8 @@
+function createNavbar() {
+
+}
+
+function createFooter() {
+
+}
+
