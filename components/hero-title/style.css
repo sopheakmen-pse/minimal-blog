@@ -47,10 +47,14 @@ input{
 }
 .btn{
     background-color: #1D2939;
-    padding: 15px ;
+    padding: 14px ;
     color: white;
     font-size: 14px;
     width: 100px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: 3px;
 }
 .btn:hover{
     background-color: white;
