@@ -28,8 +28,9 @@ header{
     display: flex;
     justify-content: none ; 
     align-items: center;
-    padding: 0 24px;  
+    padding: 0px 24px;  
     justify-content: space-between;
+    margin-top: -1px;
 }
 .navbar{
     margin-left: 50%;
