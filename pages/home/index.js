@@ -1,3 +1,4 @@
+
 import articles from "../../data/articleData.js";
 import navbar  from "../../components/navbar/index.js";
 import
@@ -50,3 +51,4 @@ for (let i = 0; i <3; i++){
     
 
  
+
