@@ -664,10 +664,12 @@ const article12 =
    if (articles[i].category === "daily trends"){
       document.getElementById('articleContainer').innerHTML +=`
       <div class="article">
-         <div class="content">
-         ${articles[i].category} <br>
-         ${articles[i].paragraphs[0]}
-      <img class="pic" src="${articles[i].primaryImageUrl}">
+         <div class="article-info">
+          ${articles[i].category} <br>
+          ${articles[i].paragraphs[0]}
+         <div class="image-info">
+          <img src="${articles[i].primaryImageUrl}">
+         </div>
       </div>
       </div>
        
