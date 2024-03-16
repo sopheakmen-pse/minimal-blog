@@ -1,0 +1,20 @@
+
+
+.title{
+    width: 200%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    padding: 10px;
+    margin-top: 20px;
+
+
+}
+.title h4{
+    margin-right: 33%;
+}
+.btn{
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+}

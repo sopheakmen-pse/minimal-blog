@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Get Parameter from URL</title>
+</head>
+<body>
+
+<script>
+  // Function to get parameter value from URL
+  function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+  }
+
+  // Example usage
+  var parameterValue = getParameterByName('parameterName');
+  if (parameterValue) {
+    console.log('Parameter value:', parameterValue);
+    // You can perform further actions based on the parameter value
+  } else {
+    console.log('Parameter not found or value is empty');
+  }
+</script>
+
+</body>
+</html>
+
+

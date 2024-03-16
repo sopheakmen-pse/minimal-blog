@@ -13,9 +13,6 @@ document.getElementById('container-navbar').innerHTML+=`
  <div class ="subscribebtn" style="color:white;><a href="">${navbar.catigory[3]}</a></div>
 `;
 
-
-
-
 document.getElementById("pharagrap") .innerHTML = `
 
 
@@ -30,8 +27,9 @@ text-align: center;
 font-family:sans-serif;
 font-size:65px;
 margin-top:100px;
-">10 hilarious NFT sales that <br> broke the internet</h1>
+">Daily Digest</h1>
 
 
-<p style="text-align:  center; line-height: 40px; font-family:sans-serif; font-size:15px;">
-AUGUST 13, 2021 • <b> Daily digest </b> </p>`
+<p style="text-align:  center; line-height: 40px; font-family:sans-serif; font-size:25px;">
+A description of the respective category goes right <br> here. Be as expressive as possible, but in brief.</p>`
+
