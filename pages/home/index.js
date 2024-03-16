@@ -1,36 +1,54 @@
-const navbar = {
-    logo: "Personaly",
-    catigory:[ "Daily Digest", "Design Tools", "Tutorials", "Subscribe"]
 
-}
-document.getElementById('container-navbar').innerHTML+=`
- <div class ="logo"><a href="">${navbar.logo}</a></div>
- <div class ="navbar-iterm">
- <a href="">${navbar.catigory[0]}</a>
- <a href="">${navbar.catigory[1]}</a>
- <a href="">${navbar.catigory[2]}</a>
- </div>
- <div class ="subscribebtn" style="color:white;><a href="">${navbar.catigory[3]}</a></div>
-`;
+import articles from "../../data/articleData.js";
+import navbar  from "../../components/navbar/index.js";
+import
+for (let i = 0; i <3; i++){
+    if (articles[i].category === "daily trends"){
+       document.getElementById('articleContainer').innerHTML +=`
+       
+       
+       <div class="article">
+          <div class="content">
+          ${articles[i].paragraphs[0]}
+       <img class="pic" src="${articles[i].primaryImageUrl}">
+       </div>
+       </div>
+       </section>
+       `
+     };
+     };
 
-document.getElementById("pharagrap") .innerHTML = `
-<p id="button" style="text-align: center; display: flex; height:40px; width:200px; margin-top:100px; 
-font-family:sans-serif; background-color:rgb(236, 235, 235); justify-content: center; margin-left:45%; 
-border-radius: 20px; align-items: center;">👋  Meet Personally </p>
+     for (let i = 14; i <17; i++){
+        if (articles[i].category === "tutorials"){
+           document.getElementById('articleContainer1').innerHTML +=`
+           <div class="article">
+              <div class="content">
+              <div class="paragraph">
+              <h3>${articles[i].title}</h3>
+              ${articles[i].description}
+              </div>
+           <img class="pic" src="${articles[i].primaryImageUrl}">
+           </div>
+           </div>
+            
+           `
+         };
+         };
 
+         for (let i = 7; i <10; i++){
+            if (articles[i].category === "Development tool"){
+               document.getElementById('articleContainer2').innerHTML +=`
+               <div class="article">
+                  <div class="content">
+                  ${articles[i].paragraphs[0]}
+               <img class="pic" src="${articles[i].primaryImageUrl}">
+               </div>
+               </div>
+                
+               `
+             };
+             };
+    
 
-
-<h1 id="title" style="  
-font-weight: bold; 
-background:linear-gradient(60deg,red , yellow);
--webkit-background-clip: text;
-color: transparent;
-text-align: center;
-font-family:sans-serif;
-font-size:65px;
-">Minimal blog template for <br> creative expressions</h1>
-
-
-<p style="text-align:  center; line-height: 40px; font-family:sans-serif; font-size:25px;">
-100% customisable and SEO-friendly blog template <br> for personal and commercial purposes.</p>`
+ 
 

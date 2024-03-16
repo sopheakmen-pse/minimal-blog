@@ -1,49 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    color: black;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  #container-navbar{
-      width: 100%;
-      height: 105px;
-      display: flex;
-      align-items: center;
-      background-color: rgb(238, 234, 234);
-      justify-content: space-between;
-      box-shadow: 0px 0px 3px;
-  }
-  .logo{
-      font-size: 3rem;
-      font-weight: bold;
-      padding: 7px;
-      border-radius: 7px;
-      border-bottom: 10px;
-  
-  }
-  .navbar-iterm{
-    width: 70%;
+
+
+.title{
+    width: 200%;
     display: flex;
-    gap: 70px;
-    font-size: 1.5rem;
-    margin-left: 45%;
-    transition: 0.5s ease;
-  }
-  .subscribebtn{
+    justify-content: space-evenly;
     font-size: 2rem;
-    padding: 25px 25px;
-    background-color: rgb(0, 0, 0);
-    margin-right: 50px;
-    border-radius: 20px;
-  }
-  .navbar-iterm a:hover{
-   background: linear-gradient(45deg,rgb(191, 5, 5),rgb(230, 159, 27));
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-   
-  }
-  .pharagrap{
-    line-height: 50px;
-  }
+    padding: 10px;
+
+}
