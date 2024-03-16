@@ -1,6 +1,6 @@
 
 const navbar = {
-    logo: "Personaly",
+    logo: "2+2",
     catigory:[ "Daily Digest", "Design Tools", "Tutorials", "Subscribe"]
 
 }
