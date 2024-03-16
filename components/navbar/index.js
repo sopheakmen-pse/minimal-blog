@@ -14,3 +14,4 @@ document.getElementById('container-navbar').innerHTML+=`
  <div class ="subscribebtn" style="color:white;><a href="">${navbar.catigory[3]}</a></div>
 `;
 
+export default navbar;
