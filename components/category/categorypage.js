@@ -10,7 +10,7 @@ const articleId = urlParam.get("category");
 for (var i=0;i<articles.length;i++){
   if (articles[i].category === articleId){
     const div = document.createElement("div");
-    // div.classList("each-box");
+    // div.classList.add("each-box-bar");
     div.innerHTML += `
     <div class="each-box">
         <div class="txt">
@@ -24,3 +24,4 @@ for (var i=0;i<articles.length;i++){
     document.body.append(div);
   }
 }
+console.log(articleId);
