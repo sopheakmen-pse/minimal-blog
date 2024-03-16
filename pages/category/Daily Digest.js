@@ -14,9 +14,7 @@ document.getElementById('container-navbar').innerHTML+=`
 `;
 
 document.getElementById("pharagrap") .innerHTML = `
-<p id="button" style="text-align: center; display: flex; height:40px; width:200px; margin-top:100px; 
-font-family:sans-serif; background-color:rgb(236, 235, 235); justify-content: center; margin-left:45%; 
-border-radius: 20px; align-items: center;">👋  Meet Personally </p>
+
 
 
 
@@ -28,9 +26,10 @@ color: transparent;
 text-align: center;
 font-family:sans-serif;
 font-size:65px;
-">Minimal blog template for <br> creative expressions</h1>
+margin-top:100px;
+">Daily Digest</h1>
 
 
 <p style="text-align:  center; line-height: 40px; font-family:sans-serif; font-size:25px;">
-100% customisable and SEO-friendly blog template <br> for personal and commercial purposes.</p>`
+A description of the respective category goes right <br> here. Be as expressive as possible, but in brief.</p>`
 
