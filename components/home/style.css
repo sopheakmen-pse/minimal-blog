@@ -5,13 +5,13 @@
     
 }
 body {
-    background-color:#F2F4F7;
+       background-color:#F2F4F7;
 }
-.container{
+.home{
     width: 70%;
     overflow: hidden;
     margin: auto;
-   
+ 
 }
 .content-card{
     display: flex;
@@ -22,14 +22,14 @@ body {
 .content-card h3{
     font-size: 26px;
 }
-.btn{
+.btn-view{
     font-size: 14px;
     background-color:#ffff ;
-    padding: 8px 12px 8px 12px;
+    padding: 8px ;
     border-radius: 8px;
     gap: 10px;
 }
-.btn:hover{
+.btn-view:hover{
     background-color: black;
     color: #ffff;
 }

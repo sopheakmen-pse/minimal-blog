@@ -1,4 +1,4 @@
-document.querySelector(".container").innerHTML += `
+document.querySelector(".sction").innerHTML += `
 <button class="btn">👋 Meet Personally</button>
 <div class="title">
 <h1>Minimal blog template for creative expressions</h1>
