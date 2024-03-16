@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#F2F4F7;
+}
+.DailyTrends{
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    height: auto;   
+}
+.name-box{
+    display: flex;
+    justify-content: space-between;
+}
+.name-box a{
+    background-color: white;
+    padding: 8px 7px;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: 540;
+    text-decoration: none;
+}
+.name-box h1{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.each-box{
+    display: flex;
+    background-color: white;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    border-radius: 12px;
+}
+.txt{
+    width: 60%;
+    height: auto;
+}
+.txt p{
+    color: rgb(110, 106, 106);
+    font-weight: 50;
+}
+.txt :nth-child(1){
+    line-height: 4;
+}
+.txt :nth-child(3){
+    line-height: 2;
+    padding-bottom: 25px;
+}
+.txt a{
+    line-height: 2;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+.images{
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.images img{
+    object-fit: cover;
+    width: 50%;
+    border-radius: 20px;
+    height: auto;
+}
