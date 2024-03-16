@@ -287,7 +287,7 @@ const article15 =
   title: "Mastering the Art of Photography: 6 Essential Techniques Every Beginner Should Know",
   description: "Dive into the world of photography with these 6 fundamental techniques that will take your skills to the next level. From understanding exposure to mastering composition, this tutorial will guide you through the basics and help you capture stunning images.",
   category: "tutorials",
-  primaryImageUrl: "https://orangematter.solarwinds.com/wp-con",
+  primaryImageUrl: "https://images.unsplash.com/photo-1559028012-481c04fa702d?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
   publishDate: "2024-03-01",
   paragraphs: [
@@ -323,7 +323,7 @@ const article16 =
   title: "Mastering the Art of Photography: 6 Essential Techniques Every Beginner Should Know",
   description: "Dive into the world of photography with these 6 fundamental techniques that will take your skills to the next level. From understanding exposure to mastering composition, this tutorial will guide you through the basics and help you capture stunning images.",
   category: "tutorials",
-  primaryImageUrl: "https://orangematter.solarwinds.com/wp-con",
+  primaryImageUrl: "https://media.istockphoto.com/id/171137371/photo/computer-in-data-center.webp?s=2048x2048&w=is&k=20&c=2niPxr0rhom7IbHAzOzbnGWgG7frlvBaxqu7DdC53T8=",
   secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
   publishDate: "2024-03-01",
   paragraphs: [
@@ -359,7 +359,7 @@ const article17 =
   title: "Mastering the Art of Photography: 6 Essential Techniques Every Beginner Should Know",
   description: "Dive into the world of photography with these 6 fundamental techniques that will take your skills to the next level. From understanding exposure to mastering composition, this tutorial will guide you through the basics and help you capture stunning images.",
   category: "tutorials",
-  primaryImageUrl: "https://orangematter.solarwinds.com/wp-con",
+  primaryImageUrl: "https://media.istockphoto.com/id/876916612/photo/workplace-of-software-developer.webp?s=2048x2048&w=is&k=20&c=AW-RBXieMAcde-xnQJH_HZDRsovHGouFkDRWD1ptvqg=",
   secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
   publishDate: "2024-03-01",
   paragraphs: [
@@ -465,7 +465,7 @@ const article8 =
   title: "Mastering the Art of Photography: 6 Essential Techniques Every Beginner Should Know",
   description: "Dive into the world of photography with these 6 fundamental techniques that will take your skills to the next level. From understanding exposure to mastering composition, this tutorial will guide you through the basics and help you capture stunning images.",
   category: "Development tool",
-  primaryImageUrl: "https://orangematter.solarwinds.com/wp-content/uploads/2020/03/istock-1135521404.jpg",
+  primaryImageUrl: "https://media.istockphoto.com/id/667012908/photo/unraveling-the-code.webp?s=2048x2048&w=is&k=20&c=P6g3eGRzx7fCIVQHcwuirEliGGpLMhe6L-AAKTNdh3I=",
   secondaryImageUrl: "https://img.freepik.com/free-vector/1.jpg",
   publishDate: "2024-03-01",
   paragraphs: [
@@ -500,7 +500,7 @@ const article9 =
   title: "Mastering the Art of Photography: 6 Essential Techniques Every Beginner Should Know",
   description: "Dive into the world of photography with these 6 fundamental techniques that will take your skills to the next level. From understanding exposure to mastering composition, this tutorial will guide you through the basics and help you capture stunning images.",
   category: "Development tool",
-  primaryImageUrl: "https://orangematter.solarwinds.com/wp-content/uploads/2020/03/istock-1135521404.jpg",
+  primaryImageUrl: "https://media.istockphoto.com/id/1173803862/photo/software-developer-freelancer-working-with-program-code.webp?s=2048x2048&w=is&k=20&c=4Va-X06ko-5W9pss0Pkw9IbmcINXK1gOH5W2u5KNjqY=",
   secondaryImageUrl: "https://img.freepik.com/free-vector/1.jpg",
   publishDate: "2024-03-01",
   paragraphs: [
@@ -537,7 +537,7 @@ const article10 =
   title: "Mastering the Art of Photography: 6 Essential Techniques Every Beginner Should Know",
   description: "Dive into the world of photography with these 6 fundamental techniques that will take your skills to the next level. From understanding exposure to mastering composition, this tutorial will guide you through the basics and help you capture stunning images.",
   category: "Development tool",
-  primaryImageUrl: "https://orangematter.solarwinds.com/wp-content/uploads/2020/03/istock-1135521404.jpg",
+  primaryImageUrl: "https://media.istockphoto.com/id/1202078023/photo/hacker-attacking-internet.webp?s=2048x2048&w=is&k=20&c=HdcilU8QA-ikGaQC-S4O7vli2xpYO74STXnNMUeQqIM=",
   secondaryImageUrl: "https://img.freepik.com/free-vector/1.jpg",
   publishDate: "2024-03-01",
   paragraphs: [
