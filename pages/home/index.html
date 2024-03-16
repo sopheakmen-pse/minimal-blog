@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="/components/navbar/styles.css">
     <link rel="stylesheet" href="/components/category/style.css">
+    <link rel="stylesheet" href="/components/footer/style.css">
 </head>
 <body>
     <section style="background-color: white; padding-bottom: 50px;">
@@ -14,7 +15,7 @@
                 <a href="" class="nav-branding">Personally <sup>TM</sup></a>
             </div>
             <div class="navbar" id="navbar"></div>
-            <a href="" class="subscribe">Subscribe</a>
+            <a href="#email" class="subscribe">Subscribe</a>
             <div class="humburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -44,6 +45,23 @@
         </div>
         <div id="Tutorails"></div>
     </section>
+    <div class="container" style="background-color: white; padding-top: 30px; margin-top: 30px;">
+        <div class="footer">
+        <h1>Personally Newsletter</h1>
+        <p>A bi-weekly newsletter of design inspiration, resources <br>
+        and anything related to career development. 
+      </p>
+      <form id="button">
+        <input type="email" id="email" name="gmail" placeholder="Email address" required>
+       <button type="submit">Subscribe</button>
+        <p id="subscribeMessage"></p>
+        </form>
+      </div>
+      <div class="p">
+        <p>Copyright 2021 - Elikem Daniels</p>
+      </div>
+</div>
+   <script src="/components/footer/script.js"></script>
     <script type="module" src="/components/category/home.js"></script>
     <script src="/components/navbar/index.js"></script>
 </body>
