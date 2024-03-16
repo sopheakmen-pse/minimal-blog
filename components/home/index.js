@@ -402,7 +402,7 @@ for (let i=0 ; i<3; i++) {
         <p>${articleles[i].paragraphs[0]}</p>
     </div>
     <div class="article-image">
-        <img src="/images/back-1.png" alt="">
+        <img src="${articleles[i].primaryImageUrl}" alt="">
     </div>
     </div>
         `
@@ -420,7 +420,7 @@ for (let i=0 ; i<articleles.length; i+=2) {
         <p>${articleles[i].paragraphs[0]}</p>
     </div>
     <div class="article-image">
-        <img src="/images/back-1.png" alt="">
+        <img src="${articleles[i].primaryImageUrl}" alt="">
     </div>
     </div>
         `
@@ -437,7 +437,7 @@ for (let i=0 ; i<articleles.length; i+=2) {
         <p>${articleles[i].paragraphs[0]}</p>
     </div>
     <div class="article-image">
-        <img src="/images/back-1.png" alt="">
+        <img src="${articleles[i].primaryImageUrl}" alt="">
     </div>
     </div>
         `
