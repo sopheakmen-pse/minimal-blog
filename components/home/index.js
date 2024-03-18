@@ -1,10 +1,5 @@
 
 
-//data arry
-
-
-
-
 
 //data card
 let article1 = {
@@ -386,9 +381,11 @@ let article18 = {
 ],
 };
 
-
+//data arry
 const articleles =[article1,article2,article3,article4,article5,article6,article7,article8,article9,article10,article11,article12,article13,article14,article15,article16,article17,article18];
 
+
+//daily trends
 for (let i=0 ; i<3; i++) {
     if(articleles[i].category === "daily trends") {
         document.getElementById("article-card").innerHTML += `
@@ -407,6 +404,8 @@ for (let i=0 ; i<3; i++) {
 };
 
 
+
+//develpment tools
 for (let i=0 ; i<articleles.length; i+=2) {
     if(articleles[i].category === "development tools") {
         document.getElementById("developmentools").innerHTML += `
@@ -424,6 +423,10 @@ for (let i=0 ; i<articleles.length; i+=2) {
     };
 };
 
+
+
+
+//tutorials
 for (let i=0 ; i<articleles.length; i+=2) {
     if(articleles[i].category === "Tutorials") {
         document.getElementById("Tutorials").innerHTML += `
