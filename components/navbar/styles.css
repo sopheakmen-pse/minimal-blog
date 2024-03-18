@@ -1,64 +1,85 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
-    padding: 0;
-    
-  }
-  
-  nav {
-    background-color: #f3f3f3;
-    color: #000000;
-    display: flex;
-    justify-content: space-between;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #f3f3f3;
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-    padding: 10px 20px;
-    
-  }
-  
-  .logo {
-    font-size: 24px;
-  }
-  
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu a {
+  color: #000000;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.menu a.active {
+  color: #FF5733;
+}
+
+.submit-button {
+  display: block;
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 15px 22px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  margin-right: 100px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
   .menu {
-    display: flex;
-  margin-left: 10%;
-    
-    
+    display: flex; /* Show the menu items when navbar is responsive */
+    flex-direction: row; /* Ensure menu items are displayed horizontally */
+    margin-left: 0; /* Reset margin for mobile view */
   }
-  
+
   .menu a {
-    color: #000000;
-    text-decoration: none;
-    padding: 0 10px;
+    padding: 10px; /* Adjust padding for better spacing */
+    text-align: center; /* Center-align menu items */
   }
-  
-  .subscribe-button {
-    display: block; /* Show the submit button by default */
-    background-color: #000000;
-    color: white;
-    border: none;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 13px;
-    margin-left: 10px;
-    cursor: pointer;
-    border-radius: 10px;
-    margin-right: 50px;
+
+  .submit-button {
+    display: none; /* Hide the submit button on smaller screens */
   }
-  
-  @media (max-width: 768px) {
-    .menu {
-      justify-content: space-between; /* Ensure equal spacing between menu items */
-    }
-    
-    .menu a {
-      display: inline-block; /* Show menu items as inline-block elements */
-      padding: 10px; /* Adjust padding for better spacing */
-      white-space: nowrap; /* Prevent text from wrapping */
-    }
-  
-    .submit-button {
-      display: none; /* Hide the submit button on smaller screens */
-    }
+
+  .logo {
+    margin-left: 20px; /* Adjust the margin for the logo */
   }
+
+  nav.sticky .logo {
+    margin-left: 10px; /* Adjust the margin for the logo when sticky */
+  }
+
+  nav.sticky {
+    padding: 10px 20px; /* Adjust padding for sticky navbar */
+  }
+}
+
+
+
+
+
+
+
+
+
