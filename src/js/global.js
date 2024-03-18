@@ -12,7 +12,7 @@ let article1 = {
     title: " Serverless Architecture",
     category: "daily trends",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/5cxR9h2ggMKsxPgOTbLjoM7A3RJJ81wnvdYTVmQ6RBc/https/as2.ftcdn.net/v2/jpg/06/35/82/25/1000_F_635822569_k4fW6zPwP04x5SyijNNi12CPCCjrR0h5.jpg?format=webp",
-    secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
+    secondaryImageUrl: "https://images-ext-2.discordapp.net/external/CeMxxMkGRoPqgGgMbScDrA5Pkf5tJutyteHNLtpk5bk/%3Fs%3D2048x2048%26w%3Dis%26k%3D20%26c%3DlK425SxTfvzyxroO1tid16TjPQFLaXY4jLLH-97L4X4%3D/https/media.istockphoto.com/id/1188511715/photo/back-end-project-architecture-development-database-development-planning.webp?format=webp&width=902&height=629",
     publishDate: "2024-03-01",
     paragraphs: [
     "Serverless technologies such as AWS Lambda, Azure Functions, and Google Cloud Functions have surged in popularity, reshaping the landscape of backend development. Articles exploring this trend delve into how these platforms offer a more scalable and cost-effective approach to building and deploying applications.",
