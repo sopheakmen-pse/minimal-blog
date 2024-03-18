@@ -32,15 +32,15 @@ body {
     width: 40px;
     line-height: 40px;
 }
-.tbox,.btn{
+.storage,.btn{
     border: none;
     outline: none;
 }
-.tbox{
+.storage{
     width: 0px;
     transition: 0.3s;
 }
-.email-box:hover > .tbox,.btn:focus{
+.email-box:hover > .storage,.btn:focus{
     width: 260px;
     padding: 0px 10px;
 }
