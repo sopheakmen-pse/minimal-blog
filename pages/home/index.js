@@ -1,6 +1,7 @@
 
 import articles from "../../data/articleData.js";
 import navbar  from "../../components/navbar/index.js";
+// import handleSearch from "../../components/button/subscribeform.js";
 for (let i = 0; i <3; i++){
     if (articles[i].category === "daily trends"){
        document.getElementById('articleContainer').innerHTML +=`
@@ -58,6 +59,11 @@ for (let i = 14; i <17; i++){
             `
           };
           };
+
+
+
+import handleSearch from "../../components/button/subscribeform.js";
+
          
 
  
