@@ -2,19 +2,29 @@
 
 .title{
     width: 200%;
+    height: auto;
+    overflow: hidden;
     display: flex;
     justify-content: space-evenly;
     font-size: 2rem;
     padding: 10px;
     margin-top: 20px;
-
+    
 
 }
 .title h4{
     margin-right: 33%;
+   
 }
 .btn{
     border-radius: 10px;
     border: none;
     background-color: white;
+}
+.search{
+    width: 1700px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
 }

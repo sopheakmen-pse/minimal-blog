@@ -12,7 +12,8 @@ function createImageWithTitle(imageSrc, titleText) {
 
     container.appendChild(img);
     container.appendChild(title);
-  }
+   }
 
 
   createImageWithTitle("o.jpg", "Water melon");
+ 
