@@ -36,22 +36,46 @@ margin-top:100px;
 <p style="text-align:  center; line-height: 40px; font-family:sans-serif; font-size:15px;">
 AUGUST 13, 2021 • <b> Daily digest </b> </p>`
 
+const imgUrls1 = [
 
-// document.getElementById("img-1") .innerHTML = `
-
-// `
-const imageUrls = [
-    "https://media.istockphoto.com/id/1304476690/photo/close-up-ux-developer-and-ui-designer-use-augmented-reality-app-brainstorming-about-mobile.webp?s=2048x2048&w=is&k=20&c=EAJpXnbHcKzP1AefO1xlzspgQgLAlN3oYEQJIAV8A4Y=",
     "https://media.istockphoto.com/id/1205285884/photo/computer-hacker-coding-on-keyboard-on-a-background-of-monitors.webp?s=2048x2048&w=is&k=20&c=iNIa8lpBTdbtm9M0eQwe6kuRvk8oKhE8LFzCRIBywAg=",
   ];
- document.getElementById("img-1").innerHTML += `
- <img src="${imageUrls[0]}"/>
- `;
- for (let i = 0; i < imageUrls.length;i++){
+ for (let i = 0; i <1 ;i++){
     document.getElementById("img-1").innerHTML+= `
- <img style="boder: 1px solid #ddd; padding:16px;" src="${imageUrls[i]}"/>
- <p id="h">${imageUrls[1]}</p>
- `;
- 
- }
 
+ <img src="${imgUrls1[0]}"/>
+
+ `;
+ document.getElementById("pharagrap-1").innerHTML=`
+ <p>
+ Design comps, layouts, wireframes—will your clients accept that you go about <br> 
+ things the facile way? Authorities in our business will tell in no uncertain terms <br> 
+ that Lorem Ipsum is that huge, huge no no to forswear forever. <br> <br> 
+
+Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as <br>
+ its use is merely the symptom of a worse problem to take into consideration. <br> <br>
+
+The toppings you may chose for that TV dinner pizza slice when you forgot to <br>
+ shop for foods, the paint you may slap on your face to impress the new boss is <br>
+ your business. But what about your daily bread? 
+ </p>
+ `
+ }
+ function createImageWithTitle(imageSrc, titleText) {
+   let container = document.getElementById("imageContainer");
+
+
+   let img = document.createElement("img");
+    img.src = imageSrc;
+
+   let title = document.createElement("div");
+    title.classList.add("image-title");
+    title.textContent = titleText;
+
+
+    container.appendChild(img);
+    container.appendChild(title);
+  }
+
+
+  createImageWithTitle("o.jpg", "Water melon");
