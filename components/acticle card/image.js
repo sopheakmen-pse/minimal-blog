@@ -1,11 +1,11 @@
 function createImageWithTitle(imageSrc, titleText) {
-    var container = document.getElementById("imageContainer");
+   let container = document.getElementById("imageContainer");
 
 
-    var img = document.createElement("img");
+   let img = document.createElement("img");
     img.src = imageSrc;
 
-    var title = document.createElement("div");
+   let title = document.createElement("div");
     title.classList.add("image-title");
     title.textContent = titleText;
 
@@ -16,4 +16,4 @@ function createImageWithTitle(imageSrc, titleText) {
 
 
   createImageWithTitle("o.jpg", "Water melon");
- 
+
