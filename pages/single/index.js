@@ -48,16 +48,16 @@ const imgUrls1 = [
  `;
  document.getElementById("pharagrap-1").innerHTML=`
  <p>
- Design comps, layouts, wireframes—will your clients accept that you go about <br> 
- things the facile way? Authorities in our business will tell in no uncertain terms <br> 
- that Lorem Ipsum is that huge, huge no no to forswear forever. <br> <br> 
+Design comps, layouts, wireframes—will your clients accept that you go about <br> 
+things the facile way? Authorities in our business will tell in no uncertain terms <br> 
+that Lorem Ipsum is that huge, huge no no to forswear forever. <br> <br> 
 
 Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as <br>
- its use is merely the symptom of a worse problem to take into consideration. <br> <br>
+its use is merely the symptom of a worse problem to take into consideration. <br> <br>
 
 The toppings you may chose for that TV dinner pizza slice when you forgot to <br>
- shop for foods, the paint you may slap on your face to impress the new boss is <br>
- your business. But what about your daily bread? 
+shop for foods, the paint you may slap on your face to impress the new boss is <br>
+your business. But what about your daily bread? 
  </p>
  `
  }
@@ -78,4 +78,44 @@ The toppings you may chose for that TV dinner pizza slice when you forgot to <br
   }
 
 
-  createImageWithTitle("o.jpg", "Water melon");
+  createImageWithTitle("in.avif", "UI/UX DESIGNER");
+
+  document.getElementById("pharagrap-2").innerHTML=`
+  <p>The toppings you may chose for that TV dinner pizza slice when you forgot to <br>
+   shop for foods, the paint you may slap on your face to impress the new boss is <br>
+    your business. But what about your daily bread? Not so fast, I'd say, there are <br>
+     some redeeming factors in favor of greeking text, as its use is merely the <br>
+      symptom of a worse problem to take into consideration. <br> <br>
+
+  Design comps, layouts, wireframes—will your clients accept that you go about <br> 
+  things the facile way? Authorities in our business will tell in no uncertain terms <br> 
+  that Lorem Ipsum is that huge, huge no no to forswear forever. </p>
+`
+
+  document.getElementById("quote").innerHTML=`
+  <p>Design comps, layouts, wireframes—we believe <br>
+  that clients will surely accept that you go about <br>
+  things the facile way. It’s a matter of time.</p>
+  
+  `
+  document.getElementById("pharagrap-3").innerHTML=`
+  <p>Design comps, layouts, wireframes—will your clients accept that you go about <br>
+   things the facile way? Authorities in our business will tell in no uncertain terms <br> 
+   that Lorem Ipsum is that huge, huge no no to forswear forever. <br> <br>
+
+  The toppings you may chose for that TV dinner pizza slice when you forgot to <br>
+   shop for foods, the paint you may slap on your face to impress the new boss is <br>
+    your business. But what about your daily bread? Not so fast, I'd say, there are <br>
+    some redeeming factors in favor of greeking text, as its use is merely the <br>
+    symptom of a worse problem to take into consideration. <br> <br>
+  
+  Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as <br>
+   its use is merely the symptom of a worse problem to take into consideration. <br> <br>
+  
+  Design comps, layouts, wireframes—will your clients accept that you go about <br>
+   things the facile way? Authorities in our business will tell in no uncertain terms <br>
+    that Lorem Ipsum is that huge, huge no no to forswear forever. </p>
+  `
+
+  
+  

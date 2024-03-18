@@ -50,21 +50,25 @@
   }
 #img-1{
   
-  height: 1000px; 
+  /* height: 1000px;  */
+  height: auto;
   justify-content: center;
   display: flex;
   margin-top: 40px;
+  overflow: hidden;
  
 }
 #img-1 img{
   border: 1px solid #ddd; 
-  width: 1500px;
+  width: 1300px;
  border-radius: 20px;
 }
 #pharagrap-1{
-font-size: 20px;
-text-align: center;
-margin-top: 40px;
+  /* padding-left: 50px; */
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  font-size: 23px
 }
 .image-container {
   position: relative;
@@ -73,7 +77,7 @@ margin-top: 40px;
 
 
 .image-container img {
-  width: 600px;
+  width: 900px;
   height: auto;
   border-radius: 10px;
 
@@ -83,12 +87,59 @@ margin-top: 40px;
 .image-title {
   position: absolute;
   bottom: 20px;
-  left: 10px;
-  width: 40%;
+  right: 57%;
+  width: 15%;
   border-radius: 50px;
   background-color: rgb(234, 230, 230); 
   color: black;
   text-align: center;
   padding: 10px;
   box-sizing: border-box;
+  justify-content: center;
 }
+.image-container{
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  
+}
+#image-container{
+  text-align: center;
+}
+#pharagrap-2{
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  font-size: 23px
+}
+#quote{
+
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 38px;
+  line-height: 50px;
+  justify-content: center;
+  display: flex;
+margin-top: 50px;
+
+  
+}
+#quote p{
+  border-left: 10px solid rgb(207, 3, 3);
+  padding-left: 50px;
+  justify-content: center;
+  display: flex;
+}
+#pharagrap-3{
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  font-size: 23px
+}
+@media screen and (min-width:767px)and(max-width:1024px){
+
+    #pharagrap-1{
+      font-size: 10px;
+    }
+} 
+  
