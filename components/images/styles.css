@@ -1,0 +1,30 @@
+.image {
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.image-caption {
+    border-radius: 1rem;
+    position: relative;
+}
+
+.image-caption .caption {
+    padding: 5px 1rem;
+    border-radius: 1rem;
+    background-color: #ddd;
+    position: absolute;
+    bottom: 1.2rem;
+    left: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.content {
+    width: 80%;
+    text-align: center;
+}
