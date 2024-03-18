@@ -46,4 +46,49 @@
   }
   .pharagrap{
     line-height: 50px;
+    
   }
+#img-1{
+  
+  height: 1000px; 
+  justify-content: center;
+  display: flex;
+  margin-top: 40px;
+ 
+}
+#img-1 img{
+  border: 1px solid #ddd; 
+  width: 1500px;
+ border-radius: 20px;
+}
+#pharagrap-1{
+font-size: 20px;
+text-align: center;
+margin-top: 40px;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+
+.image-container img {
+  width: 600px;
+  height: auto;
+  border-radius: 10px;
+
+}
+
+
+.image-title {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  width: 40%;
+  border-radius: 50px;
+  background-color: rgb(234, 230, 230); 
+  color: black;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}

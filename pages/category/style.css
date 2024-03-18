@@ -1,0 +1,6 @@
+.article-top #title{
+justify-content: center;
+display: flex;
+text-align: center;
+align-items: center;
+}
