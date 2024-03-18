@@ -8,7 +8,8 @@ body {
     
 }
 .container{
-    background: url(../../images/COVER.png) no-repeat center;
+    background-color: white;
+    /* background: url(../../images/COVER.png) no-repeat center; */
     background-size: cover;
     padding: 100px 40px;
     text-align: center;
@@ -21,33 +22,16 @@ body {
     font-weight: 300;
 
 }
-.email-box{
-    height: 40px;
-    display: flex;
-    justify-content: center;
-
+#emailInput {
+    padding: 10px;
+    border: 1px solid rgb(0, 119, 255);
+    width: 200px;
 }
-.email-box i{
-    background: #2f3542;
-    width: 40px;
-    line-height: 40px;
-}
-.storage,.btn{
+#subscribeButton {
+    padding: 12px 20px;
+    
+    background-color: #000000;
+    color: #fff;
     border: none;
-    outline: none;
-}
-.storage{
-    width: 0px;
-    transition: 0.3s;
-}
-.email-box:hover > .storage,.btn:focus{
-    width: 260px;
-    padding: 0px 10px;
-}
-.btn{
-    background: #2f3542;
-    color: white;
-    padding: 0px 10px;
-    text-transform: uppercase;
     cursor: pointer;
 }
