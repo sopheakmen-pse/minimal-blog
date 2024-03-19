@@ -20,6 +20,7 @@ const articleId =UrlParam.get("category");
 for (let i=0 ; i<articleles.length; i++) {
     if(articleles[i].category === articleId) {
         document.getElementById("article-card").innerHTML += `
+        <a href="/components/single(page)/index.html?id=${articleles[i].id}&&category=daily trends">
         <div class="card">
         <div class="article-info">
         <h5>${articleles[i].publishDate}</h5>
@@ -30,6 +31,7 @@ for (let i=0 ; i<articleles.length; i++) {
         <img src="${articleles[i].primaryImageUrl}" alt="">
     </div>
     </div>
+    </a>
         `
     };
 };
