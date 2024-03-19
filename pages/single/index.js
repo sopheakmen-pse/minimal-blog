@@ -1,27 +1,12 @@
 
-
-
-// const navbar = {
-//     logo: "Personaly",
-//     catigory:[ "Daily Digest", "Design Tools", "Tutorials", "Subscribe"]
-
-// }
-// document.getElementById('container-navbar').innerHTML+=`
-//  <div class ="logo"><a href="">${navbar.logo}</a></div>
-//  <div class ="navbar-iterm">
-//  <a href="">${navbar.catigory[0]}</a>
-//  <a href="">${navbar.catigory[1]}</a>
-//  <a href="">${navbar.catigory[2]}</a>
-//  </div>
-//  <div class ="subscribebtn" style="color:white;><a href="">${navbar.catigory[3]}</a></div>
-// `;
-
 import navbar from "../../components/navbar/index.js";
 
 
 
-
 document.getElementById("pharagrap") .innerHTML = `
+
+
+
 
 <h1 id="title" style="  
 font-weight: bold; 
@@ -118,7 +103,6 @@ your business. But what about your daily bread?
    things the facile way? Authorities in our business will tell in no uncertain terms <br>
     that Lorem Ipsum is that huge, huge no no to forswear forever. </p>
   `
-
   import articles from "../../data/articleData.js";
   // import articleContainer from "../../components/acticle card/acticlecard.js";
   for (let i = 0; i <3; i++){
@@ -139,12 +123,6 @@ your business. But what about your daily bread?
        `
      };
      };
-
-  
-     document.getElementById("footer").innerHTML=`
-     <p>Copyright 2021 - Elikem Daniels</p>
-     
-     `
-
-import herotext from "../../components/hero/hero.js";
-import handleSearch from "../../components/button/subscribeform.js";
+  import herotext from "../../components/hero/hero.js";
+  import handleSearch from "../../components/button/subscribeform.js";
+  import footer from "../../components/footer/script.js";
