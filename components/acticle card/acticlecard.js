@@ -658,7 +658,7 @@ const article12 =
 };
 
 let articles = [article1, article2, article3, article4, article5, article6, article7, article8, article9, article10, article11, article12, article13, article14, article15, article16, article17, article18]
-// export default articles;
+export default articleContainer;
 
 for (let i = 0; i < articles.length; i++) {
   if (articles[i].category === "daily trends") {

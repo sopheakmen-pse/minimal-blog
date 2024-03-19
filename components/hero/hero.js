@@ -1,11 +1,10 @@
-document.getElementById("pharagrap") .innerHTML = `
-<p id="button" style="text-align: center; display: flex; height:40px; width:200px; 
-font-family:sans-serif; background-color:rgb(236, 235, 235); justify-content: center; margin-left:45%; 
-border-radius: 20px; align-items: center;">👋  Meet Personally </p>
+document.getElementById("herotext") .innerHTML = `
+
+<h1 id="title">Personally Newsletter</h1>
 
 
+<p id=title-1>A bi-weekly newsletter of design inspiration, resources <br> and anything related to career development.</p>`
 
-<h1 id="title">10 hilarious NFT sales that <br> broke the internet</h1>
 
+export default herotext;
 
-<p id=title-1>100% customisable and SEO-friendly blog template <br> for personal and commercial purposes.</p>`
