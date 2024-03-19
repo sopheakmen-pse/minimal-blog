@@ -1,6 +1,9 @@
 
 import articles from "../../data/articleData.js";
 import navbar  from "../../components/navbar/index.js";
+
+console.log (articles);
+
 for (let i = 0; i <3; i++){
     if (articles[i].category === "daily trends"){
        document.getElementById('articleContainer').innerHTML +=`
