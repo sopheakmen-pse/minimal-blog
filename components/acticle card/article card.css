@@ -33,6 +33,15 @@ body{
     background-color: #ffff;
     border-radius: 10px;
 }
+.para{
+    margin-top: 25px;
+    margin-left: 25px;
+    text-align: start;
+    line-height: 2rem;
+}
+.para p{
+    margin-top: 22px;
+}
 .image-info{
     margin-top: 25px;
     margin-right: 25px;

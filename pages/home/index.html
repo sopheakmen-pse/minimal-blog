@@ -8,13 +8,20 @@
     <link rel="stylesheet" href="../home/styles.css">
     <link rel="stylesheet" href="../../components/navbar/styles.css">
     <link rel="stylesheet" href="../../components/acticle card/article card.css">
+    <link rel="stylesheet" href="../../components/button/subscribeform.css">
+    <link rel="stylesheet" href="../../components/herotitle/herotitle.css">
 </head>
 <body>
+    <div class="container">
     <div id="container-navbar"></div>
+    <div id="herotitle"></div>
+
+    
+    
     <section>
         <div class="title">
         <h4>Daily Digest</h4> 
-        <a style="text-align: right;" href="">View all</a>
+        <button class="btn"><a style="text-align: right;font-size: 1.5rem;" href="../../pages/category/Daily Digest.html">View all</a></button>
         </div>
         
         <div id="articleContainer"></div>
@@ -22,7 +29,7 @@
     <section>
         <div class="title">
         <h4>Turtorail</h4>
-        <a style="text-align: right;" href="">View all</a>
+        <button class="btn"><a style="text-align: right;font-size: 1.5rem;" href="../../pages/category/Tutorials.html">View all</a></button>
         </div>
         
         <div id="articleContainer1"></div>
@@ -30,15 +37,23 @@
     <section>
         <div class="title">
         <h4>Design Tool</h4>
-        <a style="text-align: right;" href="">View all</a>
+        <button class="btn"><a style="text-align: right;font-size: 1.5rem;" href="../../pages/category/Tutorials.html">View all</a></button>
         </div>
         
         <div id="articleContainer2"></div>
     </section>
-    
+    <section class="search">
+         <div id="pharagrap"></div>
+         <div class="button-input">
+            <input type="text" id="searchInput" placeholder="Email address">
+            <button id="searchButton">Subscribe</button>
+        </div>
+        <div id="footer"></div>
+   </section>
+  
+  </div>
 
     <script type="module" src="index.js" ></script>
-    <script type="module" src="index.js"></script>
-
+    <script src="index.js" ></script>
 </body>
 </html>

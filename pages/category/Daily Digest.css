@@ -7,7 +7,7 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   #container-navbar{
-      width: 100%;
+      width: 200%;
       height: 105px;
       display: flex;
       align-items: center;
@@ -16,7 +16,7 @@
       box-shadow: 0px 0px 3px;
   }
   .logo{
-      font-size: 3rem;
+      font-size: 2rem;
       font-weight: bold;
       padding: 7px;
       border-radius: 7px;
@@ -33,7 +33,7 @@
   }
   .subscribebtn{
     font-size: 2rem;
-    padding: 25px 25px;
+    padding: 20px 20px;
     background-color: rgb(0, 0, 0);
     margin-right: 50px;
     border-radius: 20px;
@@ -44,6 +44,7 @@
    -webkit-text-fill-color: transparent;
    
   }
-  .pharagrap{
-    line-height: 50px;
-  }
+ 
+
+
+
