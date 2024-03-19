@@ -4,8 +4,7 @@ import navbar  from "../../components/navbar/index.js";
 const Params = window.location.search;
 const urlParams = new URLSearchParams(Params);
 const articleId = urlParams.get('category');
-for (let i = 0; i < 3; i++){
-// import handleSearch from "../../components/button/subscribeform.js";
+
 for (let i = 0; i <3; i++){
     if (articles[i].category === "daily trends"){
        document.getElementById('articleContainer').innerHTML +=`
