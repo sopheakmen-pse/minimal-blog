@@ -12,7 +12,7 @@ let article1 = {
     title: " Serverless Architecture",
     category: "daily trends",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/5cxR9h2ggMKsxPgOTbLjoM7A3RJJ81wnvdYTVmQ6RBc/https/as2.ftcdn.net/v2/jpg/06/35/82/25/1000_F_635822569_k4fW6zPwP04x5SyijNNi12CPCCjrR0h5.jpg?format=webp",
-    secondaryImageUrl: "https://images-ext-2.discordapp.net/external/CeMxxMkGRoPqgGgMbScDrA5Pkf5tJutyteHNLtpk5bk/%3Fs%3D2048x2048%26w%3Dis%26k%3D20%26c%3DlK425SxTfvzyxroO1tid16TjPQFLaXY4jLLH-97L4X4%3D/https/media.istockphoto.com/id/1188511715/photo/back-end-project-architecture-development-database-development-planning.webp?format=webp&width=902&height=629",
+    secondaryImageUrl: "https://images-ext-1.discordapp.net/external/17en_aMCGxaugdM5c4LzExk5kGZAZq8g6Hdq442LqYI/https/www.interviewbit.com/blog/wp-content/uploads/2021/06/Backend-Developer-Roles-and-Responsibilities-1024x640.jpg?format=webp&width=1006&height=629",
     publishDate: "2024-03-01",
     paragraphs: [
     "Serverless technologies such as AWS Lambda, Azure Functions, and Google Cloud Functions have surged in popularity, reshaping the landscape of backend development. Articles exploring this trend delve into how these platforms offer a more scalable and cost-effective approach to building and deploying applications.",
@@ -33,7 +33,7 @@ let article2 = {
     title: "Microservices",
     category: "daily trends",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/CeMxxMkGRoPqgGgMbScDrA5Pkf5tJutyteHNLtpk5bk/%3Fs%3D2048x2048%26w%3Dis%26k%3D20%26c%3DlK425SxTfvzyxroO1tid16TjPQFLaXY4jLLH-97L4X4%3D/https/media.istockphoto.com/id/1188511715/photo/back-end-project-architecture-development-database-development-planning.webp?format=webp&width=902&height=629",
-    secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
+    secondaryImageUrl: "https://images-ext-1.discordapp.net/external/XEb7vxAOg0HtpHcqCbbJbiT6qdHMEZFHDqN4a1hMbYo/https/www.liveabout.com/thmb/z_RXiDK2cxFRjPzyWxBiAQLpWx8%3D/1500x0/filters%3Ano_upscale%28%29%3Amax_bytes%28150000%29%3Astrip_icc%28%29/backenddeveloper-2502825a14ff440eb775dc4244e7ed4d.png?format=webp&quality=lossless&width=944&height=629",
     publishDate: "2024-03-01",
     paragraphs: [
     "Microservices Architectures: One of the hottest trends in backend development revolves around microservices architectures. Articles delve into the design principles and benefits of breaking down monolithic applications into smaller, independently deployable services.",
@@ -54,7 +54,7 @@ let article3 = {
     title: "GraphQL",
     category: "daily trends",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/7DlwsklZnuXSAjttHIeLaMu-nEDroP-mWN1w_Rt3MuU/%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DB0OuIZcYGvFqUMRz3wNUWvsyKj0MVQAigHwLSh55W6g%3D/https/media.istockphoto.com/id/488975864/photo/chemical-composition.jpg?format=webp",
-    secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
+    secondaryImageUrl: "https://images-ext-2.discordapp.net/external/uU9ygWR_JWMfob_Vbf5jdCuNfZdCwiKK4C-ztGHx3FI/%3Fq%3Dtbn%3AANd9GcSZqyhVZONwkL4TJTLw7WY-_4umszzcsIN0ug%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
     publishDate: "2024-03-01",
     url:"",
     paragraphs: [
@@ -76,7 +76,7 @@ let article4 = {
     title: "Event-Driven Architecture",
     category: "daily trends",
     primaryImageUrl: "https://images-ext-1.discordapp.net/external/Kc7PFiu1mObRXrXBEJVvZ8vK5tNFSmyZ__vmxRLegZA/%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3Dwa4vbwa65ZgxZxkvgrPZCz_ujD3xDY1N97p_5jWRNBM%3D/https/media.istockphoto.com/id/1142219122/vector/engineering-backgrounds-mechanical-engineering-drawing.jpg?format=webp",
-    secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
+    secondaryImageUrl: "https://images-ext-1.discordapp.net/external/iXM6anxJMiWoR7M2l3nEHS8JJ-cajvNfei7s5YGjSak/https/images.ctfassets.net/cjwb7umaxoxv/4AuOvxXeCTrtafuW7NoEbr/94b1abfd50160727e6c7eccf9a3c7401/Back-end_JS_Developer_Skills__1_.png?format=webp&quality=lossless&width=1118&height=629",
     publishDate: "2024-03-01",
     paragraphs: [
     "Event-driven design patterns, such as event sourcing and CQRS (Command Query Responsibility Segregation), have emerged as powerful paradigms in building modern backend systems. These approaches promote scalability and resilience by decoupling components and enabling asynchronous communication.",
@@ -97,7 +97,7 @@ let article5 = {
     title: "Containerization",
     category: "daily trends",
     primaryImageUrl: "https://images-ext-1.discordapp.net/external/tHDdpY3Il9-A30_1O-LrnjJJtrUdNSE-ejUgq-jRouY/%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3D3xPDRd5gjsuF78588YofpMjjVFkmlzXk96gHergyPls%3D/https/media.istockphoto.com/id/641102124/vector/smartphone-communications-technology.jpg?format=webp",
-    secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
+    secondaryImageUrl: "https://images-ext-1.discordapp.net/external/CoJE84RtArlhS0AFikrEd5r5JLQKI0gnwLDyBOP4loQ/%3Fq%3Dtbn%3AANd9GcTvAJ0JcUo_eC5SR98QhxSp8kdzTYA2n1oQdrD0dU9jy44MZWP7SSI9Wv6yw0M-KVlPg3A%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
     publishDate: "2024-03-01",
     paragraphs: [
     "Introduction to Containerization: Containerization technologies like Docker have revolutionized backend development by offering lightweight, portable environments for deploying applications.",
@@ -118,7 +118,7 @@ let article6 = {
     title: "Security",
     category: "daily trends",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/TuPvoxDNgL07suUVy3qLvQI2YTKNz7sI0ogt7cwY8h4/%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3D22ARI12u5lrte5pS1hI7wqcHzMbTExaAnaWvT64s4ws%3D/https/media.istockphoto.com/id/502630794/photo/web-page-source-codes-macro.jpg?format=webp",
-    secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
+    secondaryImageUrl: "https://images-ext-2.discordapp.net/external/Rh7tKCjrNwn7FmKs72mOGFgR3o-wTx8VhAPXpK82kj4/%3Fq%3Dtbn%3AANd9GcQE1CQwEJpp0egY9QMpxWT_QDwygUGvnYKxFM-E0JJqrF432ySutEohz829mU35bvmocpo%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
     publishDate: "2024-03-01",
     paragraphs: [
     "API Security: With the rising adoption of APIs in modern software development, ensuring API security has become paramount. Developers are exploring techniques such as OAuth 2.0 and JWT (JSON Web Tokens) for secure authentication and authorization, while also implementing measures like rate limiting and input validation to mitigate common vulnerabilities such as injection attacks.",
@@ -139,7 +139,7 @@ let article7 = {
     title: "A Comprehensive Guide to Node.js Development Tools",
     category: "development tools",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/G4_u4_0V1BaRE24o3WsmeAOmHjCi2TzYwWZyEAniO2M/%3Fw%3D500%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8NHx8YmFja2VuZCUyMGRldmVsb3BlcnxlbnwwfHwwfHx8MA%253D%253D/https/images.unsplash.com/photo-1633356122102-3fe601e05bd2?format=webp",
-    secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
+    secondaryImageUrl: "https://images-ext-1.discordapp.net/external/HTGy8B6phv_vrDAnP3wInRzMDT8y3VFrXGHQZtCnvbU/%3Fq%3Dtbn%3AANd9GcSo0nefz06eMTC4rAt8kLDVqQ1KgpCmI4NvvGuT2TsPdkvLK45OCbLwJ7NCv5SL186LacQ%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
     publishDate: "2024-03-01",
     paragraphs: [
     "Introduction to Node.js: Node.js has gained immense popularity in the world of back-end development due to its non-blocking I/O model and event-driven architecture. Understanding its ecosystem of tools is essential for efficient development.",
@@ -160,7 +160,7 @@ let article8 = {
     title: "Effective Debugging Techniques for Python Developers",
     category: "development tools",
     primaryImageUrl: "https://images-ext-1.discordapp.net/external/UBKdJ7SPJqUYnPQrpbPTVn0E2cBsD1TsDcwjqira_dk/%3Fw%3D500%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJhY2tlbmQlMjBkZXZlbG9wZXJ8ZW58MHx8MHx8fDA%253D/https/images.unsplash.com/photo-1613068687893-5e85b4638b56?format=webp",
-    secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
+    secondaryImageUrl: "https://images-ext-2.discordapp.net/external/5WxxlGL1lehATpyxv99WXVJAr7Rqs2IK9tYjcWIus7Q/%3Fq%3Dtbn%3AANd9GcTOUFv0X7cfpGU_ALfznfyW9f1lYH7vXi8gy5q0xz-9fuemcB8StIdqdh2_1LGKaOOjRuI%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
     publishDate: "2024-03-01",
     paragraphs: [
     "Introduction to Python Debugging: Debugging is an essential skill for Python developers to identify and resolve issues in their code. Understanding effective debugging techniques can significantly improve development efficiency and code quality.",
@@ -181,7 +181,7 @@ let article9 = {
     title: "Introduction to Docker and its Application in Back-end Development",
     category: "development tools",
     primaryImageUrl: "https://images-ext-1.discordapp.net/external/ddFLilzu2LH5eU0mq6Exav7R9laQg0FtlTbfhtRb4So/%3Fsize%3D626%26ext%3Djpg%26ga%3DGA1.1.1944277358.1705040643%26semt%3Dais/https/img.freepik.com/free-photo/composition-with-html-system-websites_23-2150866281.jpg?format=webp",
-    secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
+    secondaryImageUrl: "https://images-ext-1.discordapp.net/external/74IlGtat2bq6HuLIsP97lY2X7y-PTBQG-XbnCSmkpcM/https/www.simplilearn.com/ice9/free_resources_article_thumb/Become_a_Front_End_Developer.jpg?format=webp",
     publishDate: "2024-03-01",
     paragraphs: [
     "Understanding Docker: Docker is a platform that simplifies the process of building, deploying, and managing applications using containerization technology. Containers encapsulate applications and their dependencies, enabling consistent and portable deployment across different environments.",
@@ -202,7 +202,7 @@ let article10 = {
     title: "Optimizing Back-end Performance with Profiling Tools",
     category: "development tools",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/wfmEfWdj8p5ZdQU7GCAd24TPgnNelA2dxvf19kULMC4/%3Fq%3Dtbn%3AANd9GcSB6-x5Fn5VQLNqBqOKWKwsmIba6yhTOOLPhuJQuliJJNuP6hwBS4VctUOZbKwvzbNKRlU%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
-    secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
+    secondaryImageUrl: "https://images-ext-2.discordapp.net/external/ZD7QcG_f5ucV-zV2c21-t8_nunHiMNgx0uR4rjtw-tA/https/www.simplilearn.com/ice9/free_resources_article_thumb/Front_End_Developer_Job_Description.jpg?format=webp",
     publishDate: "2024-03-01",
     paragraphs: [
     "Understanding Back-end Performance: Back-end performance optimization is critical for ensuring the responsiveness, scalability, and efficiency of web applications. Profiling tools play a vital role in identifying bottlenecks and optimizing the performance of back-end code.",
@@ -223,7 +223,7 @@ let article11 = {
     title: "Exploring GraphQL for Back-end Development",
     category: "development tools",
     primaryImageUrl: "https://images-ext-1.discordapp.net/external/SRoQg9MUAYZV3YFOI_WekRty8C-hLtyjX9gnxGUxdNY/%3Fq%3Dtbn%3AANd9GcStg1E6VOykwVnrfPlZekxU7z5k07oTKm7-fw%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
-    secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
+    secondaryImageUrl: "https://images-ext-1.discordapp.net/external/-PTAFzAz_-VvrPd0UlsaOfm8Lth1_C9yHn0__I_c89w/%3Fq%3Dtbn%3AANd9GcTE63EHJt70NPoPjBqQxkRExclPN3CMs73Z53iXrXGPkwxBLp9duL3V12pA0o51JfBqj2w%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
     publishDate: "2024-03-01",
     paragraphs: [
     "Introduction to GraphQL: GraphQL is a query language for APIs that enables clients to request only the data they need, making it an efficient alternative to traditional RESTful APIs for back-end development.",
@@ -244,7 +244,7 @@ let article12 = {
     title: "Automating Back-end Testing with Postman and Newman",
     category: "development tools",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/GsqaxC-MGV7b3ru6F3w-OYqmazpmtTwAAgms3KCAjJo/%3Fq%3Dtbn%3AANd9GcST03xjpxwLl4yMvlsQWAb6dIOSYw3Q-D3ldA%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
-    secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
+    secondaryImageUrl: "https://images-ext-2.discordapp.net/external/7CXlsdc_Vdmhvu4oYCO9VybWD0JKCJRKGg4KXQBcTJg/%3Fq%3Dtbn%3AANd9GcQojBNaomP8Nq11U79GQkfqsLJXapvxm8J8Lw6OChkGZTUXbwbeMJwYvZqkYHLr1J2bsQY%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
     publishDate: "2024-03-01",
     paragraphs: [
     "Introduction to GraphQL: GraphQL is a query language for APIs that enables clients to request only the data they need, making it an efficient alternative to traditional RESTful APIs for back-end development.",
@@ -265,7 +265,7 @@ let article13 = {
     title: "Getting Started with Node.js and Express.js",
     category: "Tutorials",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/XJHxMEejAYHbzg1tNBJ5t_aGwHb4ruNi1ACkV5J9WV0/%3Fsize%3D626%26ext%3Djpg%26ga%3DGA1.2.1944277358.1705040643%26semt%3Dais/https/img.freepik.com/free-vector/programmer-banner-set_1284-8316.jpg?format=webp",
-    secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
+    secondaryImageUrl: "https://images-ext-1.discordapp.net/external/mz1TvQ7hx4JJufSstr0u1MT08ApiSZrELP0OAfWzVO8/%3Fe%3D2147483647%26v%3Dbeta%26t%3DZ_5ctAUjdN8S45mEGqrF_0Xq3u4S5g4prsb7f6Soc1k/https/media.licdn.com/dms/image/D5612AQEuc2OmI0OzMg/article-cover_image-shrink_720_1280/0/1706595615490?format=webp&width=942&height=629",
     publishDate: "2024-03-01",
     paragraphs: [
     "Node.js is a runtime environment that allows you to run JavaScript code outside of a web browser. It utilizes the V8 JavaScript engine, the same engine that powers Google Chrome, to execute code on the server-side.",
@@ -286,7 +286,7 @@ let article14 = {
     title: "Creating RESTful APIs with Flask (Python)",
     category: "Tutorials",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/e6O9QsCGwSTseq5g-mtDGHeQ34AxFMonhO0KRRbtWDw/%3Fq%3Dtbn%3AANd9GcQMLhh9FsCwKbSTABf09rVfToLbeDRqHg8Kow%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
-    secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
+    secondaryImageUrl: "https://images-ext-1.discordapp.net/external/dmlH8mRybFzq6aSGiKdoLB5yL7OMFj9z9NsSmbhUHTg/%3Fq%3Dtbn%3AANd9GcTByl28QMAuEiXrEHJVSyTo4mklF8FF3mKn5HX_VEA_u9f_A46KX5ku5D2a1viuavDo6wM%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
     publishDate: "2024-03-01",
     paragraphs: [
     " Introduction to Flask:Flask is a lightweight and flexible Python web framework that makes it easy to build web applications, including RESTful APIs. It provides the necessary tools and libraries to handle HTTP requests and responses efficiently.",
@@ -307,7 +307,7 @@ let article15 = {
     title: "Building a CRUD Application with Laravel (PHP)",
     category: "Tutorials",
     primaryImageUrl: "https://images-ext-1.discordapp.net/external/AYHNfZTuYJjlLV9Ui9eQdXAN_t2n2iKKPxaeQz6o0HQ/%3Fq%3Dtbn%3AANd9GcSICktODoP9K98c1XvRvzWqcQgfon3R_Qowow%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
-    secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
+    secondaryImageUrl: "https://images-ext-2.discordapp.net/external/oYCBWTaUzdaKtEWxmAjdGaYnjkl2BMk40FKDILMCIFA/%3Fq%3Dtbn%3AANd9GcTIzkPQXLxSy4L7bVba3a-Pn9vJoxUMz6Yu-Wt-7dav1d3RA58GA-isjKYNCA2rBFRlRyM%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
     publishDate: "2024-03-01",
     paragraphs: [
     "Introduction to Laravel:Laravel is a powerful PHP framework known for its elegant syntax and expressive features, making it an excellent choice for building web applications. It provides tools and conventions to streamline the development process, including database migrations, routing, and templating.",
@@ -328,7 +328,7 @@ let article16 = {
     title: "Introduction to ASP.NET Core MVC",
     category: "Tutorials",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/H2xgpkcDgRG09mZOUG9zn10Td3UrOuxKbDVOzJl_FRU/%3Fq%3Dtbn%3AANd9GcSC5vNBjyc3AdRSR1rw1SKuQgsNRJjjKjjEXQ%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
-    secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
+    secondaryImageUrl: "https://images-ext-2.discordapp.net/external/DECG3aZLqTumhsdajWgdSBhgBk_eQOBe4si1BOyAdF0/%3Fq%3Dtbn%3AANd9GcRC4TIquxY5d9sWj0KLjY2D8uNIX3cMkgcnjTK-YXQ7AxkjE8mbF-SdPaH7-ptjBnwt4VY%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
     publishDate: "2024-03-01",
     paragraphs: [
     "Overview of ASP.NET Core MVC:ASP.NET Core MVC is a powerful web framework developed by Microsoft for building modern web applications using the Model-View-Controller (MVC) architectural pattern. It is open-source, cross-platform, and highly extensible, making it suitable for a wide range of web development projects.",
@@ -349,7 +349,7 @@ let article17 = {
     title: "Building a GraphQL Server with Apollo Server (Node.js)",
     category: "Tutorials",
     primaryImageUrl: "https://images-ext-1.discordapp.net/external/XY21-fGuOUcDkItDg4BDkfTnpzPNVsXDJxi0fRK9zRM/%3Fq%3Dtbn%3AANd9GcRlQJER3O5mmjjw-zNRp2woHbyvbEiFt7iZU9VF6c405kk8cizIdbpz7xKuVSFFW4z6xk4%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
-    secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
+    secondaryImageUrl: "https://images-ext-1.discordapp.net/external/ozycZcjznKL8y1UolBHKfMKpz0ruOTW7SIzVBegYEh8/%3Fq%3Dtbn%3AANd9GcRj4E-TSIHqQ-YAkclvyHDG4pm7aiVOsCI0xlArxAeX9oubzhuMELW_HkEQ0oEcBHmPEDA%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
     publishDate: "2024-03-01",
     paragraphs: [
     "Introduction to GraphQL and Apollo Server:GraphQL is a query language for APIs that allows clients to request only the data they need. Apollo Server is a GraphQL server implementation for Node.js that makes it easy to build and deploy GraphQL APIs.",
@@ -370,7 +370,7 @@ let article18 = {
     title: "Securing your Back-End API with JWT Authentication",
     category: "Tutorials",
     primaryImageUrl: "https://images-ext-1.discordapp.net/external/56JOAw8_2JKoq9xKOHBk4HvMGwwXh-vRr4cej8mYMFA/%3Fq%3Dtbn%3AANd9GcTyKHMchVfLsXtGz82Or6PYNZBWhXnQQOL9jw%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
-    secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
+    secondaryImageUrl: "https://images-ext-1.discordapp.net/external/Q4x63BQEtBvKVoB9oXQPArjhe6J6lQefsEvhdV9hUvQ/%3Fq%3Dtbn%3AANd9GcSPeLjGjCYUNvGYXubOtx520kUOQ69uAREGhqqoXr-T9KgJIFJoTVo-PPRhSKJdwkp9qrU%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
     publishDate: "2024-03-01",
     paragraphs: [
     "Introduction to JWT Authentication:JWT authentication is a popular method for securing back-end APIs by issuing tokens to authenticated users. These tokens contain encoded information about the user and are signed to ensure their integrity.",
