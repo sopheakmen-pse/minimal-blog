@@ -1,17 +1,5 @@
-// function createFooter(index) {
-//     const footer = document.createElement("div");
-//     footer.innerText = "Copyright 2024" + "- " + index;
-//     return footer;
-// }
-
-// const body = document.body;
-// body.insertBefore(createFooter(1), document.getElementById("global-script"));
-// body.insertBefore(createFooter(2), document.getElementById("global-script"));
-// body.insertBefore(createFooter(3), document.getElementById("global-script"));
-
-
-import articleles from "./src/js/global";
-
+import articleles from "../../src/js/global.js";
+import titles from "../../src/js/component.js";
 
 const Params = window.location.search;
 
@@ -42,6 +30,17 @@ for (let i=0 ; i<articleles.length; i++) {
         <img src="${articleles[i].primaryImageUrl}" alt="">
     </div>
     </div>
+        `
+    };
+};
+
+for (let i=0 ; i<titles.length; i++) {
+    if(titles[i].name === articleId) {
+        document.querySelector(".sction").innerHTML += `
+<div class="title">
+<h1>${titles[i].name}</h1>
+<p>100% customisable and SEO-friendly blog template for personal and commercial purposes.</p>
+</div>
         `
     };
 };
