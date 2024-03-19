@@ -7,4 +7,4 @@ document.querySelector(".footer").innerHTML += `
        <input type="text" name="" id="" placeholder="Email address">
         <button class="btn-sub">Subscribe</button>
 </div>
-`;
+`;  
