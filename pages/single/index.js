@@ -1,4 +1,6 @@
 
+
+
 // const navbar = {
 //     logo: "Personaly",
 //     catigory:[ "Daily Digest", "Design Tools", "Tutorials", "Subscribe"]
@@ -18,10 +20,8 @@ import navbar from "../../components/navbar/index.js";
 
 
 
+
 document.getElementById("pharagrap") .innerHTML = `
-
-
-
 
 <h1 id="title" style="  
 font-weight: bold; 
@@ -118,6 +118,7 @@ your business. But what about your daily bread?
    things the facile way? Authorities in our business will tell in no uncertain terms <br>
     that Lorem Ipsum is that huge, huge no no to forswear forever. </p>
   `
+
   import articles from "../../data/articleData.js";
   // import articleContainer from "../../components/acticle card/acticlecard.js";
   for (let i = 0; i <3; i++){
@@ -138,6 +139,7 @@ your business. But what about your daily bread?
        `
      };
      };
+
   
      document.getElementById("footer").innerHTML=`
      <p>Copyright 2021 - Elikem Daniels</p>
