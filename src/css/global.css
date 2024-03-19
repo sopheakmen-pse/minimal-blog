@@ -10,6 +10,17 @@ body {
 }
 
 .container {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.sub-container {
     max-width: 1080px;
     margin: 0 auto;
+}
+
+.title {
+    color: #666;
+    font-size: 2rem;
+    font-weight: bold;
 }

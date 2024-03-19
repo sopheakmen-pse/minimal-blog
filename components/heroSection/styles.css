@@ -4,15 +4,17 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
+  line-height: 1.2;
 } 
 
 .hero-subtitle {
-    font-size: 1rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
     color: #686868
 }
 
 .hero {
     text-align: center;
-    padding: 8rem 1rem;
+    padding: 10rem 1rem;
     background-color: #fff;
 }
