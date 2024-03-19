@@ -22,9 +22,10 @@
     background-color: white;
 }
 .search{
-    width: 1700px;
+    width: 1900px;
     text-align: center;
     align-items: center;
     justify-content: center;
+    line-height: 3;
    
 }
