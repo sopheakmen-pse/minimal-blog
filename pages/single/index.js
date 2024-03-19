@@ -2,6 +2,7 @@ import navbar from "../../components/navbar/index.js";
 import herotext from "../../components/hero/hero.js";
 import handleSearch from "../../components/button/subscribeform.js";
 
+
 document.getElementById("pharagrap") .innerHTML = `
 <h1 id="title" style="  
 font-weight: bold; 

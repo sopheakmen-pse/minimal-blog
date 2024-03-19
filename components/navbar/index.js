@@ -11,7 +11,7 @@ document.getElementById('container-navbar').innerHTML+=`
  <a href="../../pages/category/Design Tools.html?category=Development tool">${navbar.catigory[1]}</a>
  <a href="../../pages/category/Tutorials.html?category=tutorials">${navbar.catigory[2]}</a>
  </div>
- <div class ="subscribebtn" style="color:white;><a href="">${navbar.catigory[3]}</a></div>
+ <a href="#search">${navbar.catigory[3]}</a>
 `;
 
 export default navbar;

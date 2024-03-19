@@ -35,5 +35,7 @@ for (let i = 0; i < articles.length; i++){
        `
      };
      };
+     import herotext from "../../components/hero/hero.js";
+     import footer from "../../components/footer/script.js";
 
 

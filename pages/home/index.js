@@ -1,6 +1,5 @@
 import articles from "../../data/articleData.js";
 import navbar  from "../../components/navbar/index.js";
-import herotitle from "../../components/herotitle/herotitle.js";
 
 const Params = window.location.search;
 const urlParams = new URLSearchParams(Params);
@@ -64,14 +63,9 @@ for (let i = 14; i <17; i++){
             `
           };
           };
+          import herotext from "../../components/hero/hero.js";
+          import footer from "../../components/footer/script.js";
 
-
-
-
-document.getElementById("footer").innerHTML=`
-<hr>
-<p style="text-align:center; font-size:25px ; font-family:sans-serif;">Copyright 2021 - Elikem Daniels</p>
-`
 
 
          
