@@ -117,6 +117,31 @@ your business. But what about your daily bread?
    things the facile way? Authorities in our business will tell in no uncertain terms <br>
     that Lorem Ipsum is that huge, huge no no to forswear forever. </p>
   `
+  import articles from "../../data/articleData.js";
+  // import articleContainer from "../../components/acticle card/acticlecard.js";
+  for (let i = 0; i <3; i++){
+    if (articles[i].category === "daily trends"){
+       document.getElementById('articleContainer').innerHTML +=`
+      <div class="article">
+         <div class="article-info">
+            <div class="para">
+              ${articles[i].publishDate}
+              <h3>${articles[i].title}</h3>
+              <p>${articles[i].description}</p>
+            </div>
+            <div class="image-info">
+             <img src="${articles[i].primaryImageUrl}">
+            </div>
+         </div>
+      </div>
+       `
+     };
+     };
+  
+     document.getElementById("footer").innerHTML=`
+     <p>Copyright 2021 - Elikem Daniels</p>
+     
+     `
 
-  
-  
+import herotext from "../../components/hero/hero.js";
+import handleSearch from "../../components/button/subscribeform.js";

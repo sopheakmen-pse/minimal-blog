@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <title>Single page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
   </head>
   <body>
     <div class="conteiner">
@@ -16,7 +17,25 @@
       <div id="pharagrap-2"></div>
       <div id="quote"></div>
       <div id="pharagrap-3"></div>
+    
     </div>
-    <script src="index.js"></script>
+    <section>
+      <h4 class="recommend">Recommended articles</h4> 
+      <div id="articleContainer"></div>
+    </section>
+    <div id="herotext"></div>
+    <div class="button-input">
+      <input type="text" id="searchInput" placeholder="Email address">
+         <button id="searchButton">Subscribe</button>
+ </div>
+    <div class="footer-main">
+      <hr>
+      <div id="footer"></div>
+  </div>
+ 
+ 
+    <script type="module" src="index.js"></script>
+    <script src="hero.js"></script>
+    <script src="subscribeform.js"></script>
   </body>
 </html>
