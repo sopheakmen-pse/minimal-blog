@@ -1,13 +1,11 @@
-
 import articles from "../../data/articleData.js";
 import navbar  from "../../components/navbar/index.js";
+import herotitle from "../../components/herotitle/herotitle.js";
 
 const Params = window.location.search;
 const urlParams = new URLSearchParams(Params);
-const articleId = urlParams.get('category');
+const category = urlParams.get('category');
 
-
-console.log (articles);
 
 for (let i = 0; i <3; i++){
     if (articles[i].category === "daily trends"){
@@ -69,12 +67,12 @@ for (let i = 14; i <17; i++){
 
 
 
-import handleSearch from "../../components/button/subscribeform.js";
+
 document.getElementById("footer").innerHTML=`
 <hr>
 <p style="text-align:center; font-size:25px ; font-family:sans-serif;">Copyright 2021 - Elikem Daniels</p>
 `
-import herotitle from "../../components/herotitle/herotitle.js";
+
 
          
 
