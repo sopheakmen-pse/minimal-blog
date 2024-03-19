@@ -1,6 +1,6 @@
 let menu = {
     logo:'Personally',
-    item:["Daily Digest","Design Tools","Tutorials","Subscribe"]
+    item:["Daily Trends","Design Tools","Tutorials","Subscribe"]
 }
 
 document.getElementById("navbar").innerHTML += `

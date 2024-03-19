@@ -7,6 +7,10 @@
 body {
        background-color:#F2F4F7;
 }
+
+.content-card h2{
+    margin-left: 15%;
+}
 .home{
     width: 70%;
     overflow: hidden;
