@@ -1,0 +1,33 @@
+#subscribe-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+ 
+    border-radius: 5px;
+
+}
+.subscription-form{
+    display: flex;
+    justify-content: center;
+    }
+
+#email {
+padding: 20px 50px;
+border-radius: 5px 0 0 5px;
+border: 1px solid #ccc;
+border-right: none;
+margin: 0;}
+ #submit {
+padding: 21px 30px;
+background-color: black;
+color: #fff;
+border: none;
+cursor: pointer;
+border-radius: 0 5px 5px 0;
+margin: 0;
+margin-left: -5px;
+
+
+        
+      }
+
