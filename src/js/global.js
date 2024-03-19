@@ -6,9 +6,9 @@
 
 
 
-//data card
+//drandom-id1ata card
 let article1 = {
-    id: "random-id",
+    id: "1",
     title: " Serverless Architecture",
     category: "daily trends",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/5cxR9h2ggMKsxPgOTbLjoM7A3RJJ81wnvdYTVmQ6RBc/https/as2.ftcdn.net/v2/jpg/06/35/82/25/1000_F_635822569_k4fW6zPwP04x5SyijNNi12CPCCjrR0h5.jpg?format=webp",
@@ -29,7 +29,7 @@ let article1 = {
 ],
 };
 let article2 = {
-    id: "random-id",
+    id: "2",
     title: "Microservices",
     category: "daily trends",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/CeMxxMkGRoPqgGgMbScDrA5Pkf5tJutyteHNLtpk5bk/%3Fs%3D2048x2048%26w%3Dis%26k%3D20%26c%3DlK425SxTfvzyxroO1tid16TjPQFLaXY4jLLH-97L4X4%3D/https/media.istockphoto.com/id/1188511715/photo/back-end-project-architecture-development-database-development-planning.webp?format=webp&width=902&height=629",
@@ -50,12 +50,13 @@ let article2 = {
 ],
 };
 let article3 = {
-    id: "random-id",
+    id: "3",
     title: "GraphQL",
     category: "daily trends",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/7DlwsklZnuXSAjttHIeLaMu-nEDroP-mWN1w_Rt3MuU/%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DB0OuIZcYGvFqUMRz3wNUWvsyKj0MVQAigHwLSh55W6g%3D/https/media.istockphoto.com/id/488975864/photo/chemical-composition.jpg?format=webp",
     secondaryImageUrl: "https://images-ext-2.discordapp.net/external/uU9ygWR_JWMfob_Vbf5jdCuNfZdCwiKK4C-ztGHx3FI/%3Fq%3Dtbn%3AANd9GcSZqyhVZONwkL4TJTLw7WY-_4umszzcsIN0ug%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
     publishDate: "2024-03-01",
+    url:"",
     paragraphs: [
     "GraphQL has emerged as a revolutionary technology in API development, offering a more efficient and flexible approach to data fetching than traditional REST APIs. By allowing clients to specify exactly what data they need in a single query, GraphQL reduces over-fetching and under-fetching, leading to faster and more optimized data retrieval.",
     "One of the key ways GraphQL is changing the API landscape is by empowering front-end developers with greater control over the data they receive. Instead of relying on predefined endpoints with fixed data structures, front-end developers can craft GraphQL queries tailored to their specific requirements, enabling them to build more responsive and customizable user interfaces.",
@@ -71,7 +72,7 @@ let article3 = {
 ],
 };
 let article4 = {
-    id: "random-id",
+    id: "4",
     title: "Event-Driven Architecture",
     category: "daily trends",
     primaryImageUrl: "https://images-ext-1.discordapp.net/external/Kc7PFiu1mObRXrXBEJVvZ8vK5tNFSmyZ__vmxRLegZA/%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3Dwa4vbwa65ZgxZxkvgrPZCz_ujD3xDY1N97p_5jWRNBM%3D/https/media.istockphoto.com/id/1142219122/vector/engineering-backgrounds-mechanical-engineering-drawing.jpg?format=webp",
@@ -92,7 +93,7 @@ let article4 = {
 ],
 };
 let article5 = {
-    id: "random-id",
+    id: "5",
     title: "Containerization",
     category: "daily trends",
     primaryImageUrl: "https://images-ext-1.discordapp.net/external/tHDdpY3Il9-A30_1O-LrnjJJtrUdNSE-ejUgq-jRouY/%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3D3xPDRd5gjsuF78588YofpMjjVFkmlzXk96gHergyPls%3D/https/media.istockphoto.com/id/641102124/vector/smartphone-communications-technology.jpg?format=webp",
@@ -113,7 +114,7 @@ let article5 = {
 ],
 };
 let article6 = {
-    id: "random-id",
+    id: "6",
     title: "Security",
     category: "daily trends",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/TuPvoxDNgL07suUVy3qLvQI2YTKNz7sI0ogt7cwY8h4/%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3D22ARI12u5lrte5pS1hI7wqcHzMbTExaAnaWvT64s4ws%3D/https/media.istockphoto.com/id/502630794/photo/web-page-source-codes-macro.jpg?format=webp",
@@ -134,7 +135,7 @@ let article6 = {
 ],
 };
 let article7 = {
-    id: "random-id",
+    id: "7",
     title: "A Comprehensive Guide to Node.js Development Tools",
     category: "development tools",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/G4_u4_0V1BaRE24o3WsmeAOmHjCi2TzYwWZyEAniO2M/%3Fw%3D500%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8NHx8YmFja2VuZCUyMGRldmVsb3BlcnxlbnwwfHwwfHx8MA%253D%253D/https/images.unsplash.com/photo-1633356122102-3fe601e05bd2?format=webp",
@@ -155,7 +156,7 @@ let article7 = {
 ],
 };
 let article8 = {
-    id: "random-id",
+    id: "8",
     title: "Effective Debugging Techniques for Python Developers",
     category: "development tools",
     primaryImageUrl: "https://images-ext-1.discordapp.net/external/UBKdJ7SPJqUYnPQrpbPTVn0E2cBsD1TsDcwjqira_dk/%3Fw%3D500%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJhY2tlbmQlMjBkZXZlbG9wZXJ8ZW58MHx8MHx8fDA%253D/https/images.unsplash.com/photo-1613068687893-5e85b4638b56?format=webp",
@@ -176,7 +177,7 @@ let article8 = {
 ],
 };
 let article9 = {
-    id: "random-id",
+    id: "9",
     title: "Introduction to Docker and its Application in Back-end Development",
     category: "development tools",
     primaryImageUrl: "https://images-ext-1.discordapp.net/external/ddFLilzu2LH5eU0mq6Exav7R9laQg0FtlTbfhtRb4So/%3Fsize%3D626%26ext%3Djpg%26ga%3DGA1.1.1944277358.1705040643%26semt%3Dais/https/img.freepik.com/free-photo/composition-with-html-system-websites_23-2150866281.jpg?format=webp",
@@ -197,7 +198,7 @@ let article9 = {
 ],
 };
 let article10 = {
-    id: "random-id",
+    id: "10",
     title: "Optimizing Back-end Performance with Profiling Tools",
     category: "development tools",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/wfmEfWdj8p5ZdQU7GCAd24TPgnNelA2dxvf19kULMC4/%3Fq%3Dtbn%3AANd9GcSB6-x5Fn5VQLNqBqOKWKwsmIba6yhTOOLPhuJQuliJJNuP6hwBS4VctUOZbKwvzbNKRlU%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
@@ -218,7 +219,7 @@ let article10 = {
 ],
 };
 let article11 = {
-    id: "random-id",
+    id: "11",
     title: "Exploring GraphQL for Back-end Development",
     category: "development tools",
     primaryImageUrl: "https://images-ext-1.discordapp.net/external/SRoQg9MUAYZV3YFOI_WekRty8C-hLtyjX9gnxGUxdNY/%3Fq%3Dtbn%3AANd9GcStg1E6VOykwVnrfPlZekxU7z5k07oTKm7-fw%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
@@ -239,7 +240,7 @@ let article11 = {
 ],
 };
 let article12 = {
-    id: "random-id",
+    id: "12",
     title: "Automating Back-end Testing with Postman and Newman",
     category: "development tools",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/GsqaxC-MGV7b3ru6F3w-OYqmazpmtTwAAgms3KCAjJo/%3Fq%3Dtbn%3AANd9GcST03xjpxwLl4yMvlsQWAb6dIOSYw3Q-D3ldA%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
@@ -260,7 +261,7 @@ let article12 = {
 ],
 };
 let article13 = {
-    id: "random-id",
+    id: "13",
     title: "Getting Started with Node.js and Express.js",
     category: "Tutorials",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/XJHxMEejAYHbzg1tNBJ5t_aGwHb4ruNi1ACkV5J9WV0/%3Fsize%3D626%26ext%3Djpg%26ga%3DGA1.2.1944277358.1705040643%26semt%3Dais/https/img.freepik.com/free-vector/programmer-banner-set_1284-8316.jpg?format=webp",
@@ -281,7 +282,7 @@ let article13 = {
 ],
 };
 let article14 = {
-    id: "random-id",
+    id: "14",
     title: "Creating RESTful APIs with Flask (Python)",
     category: "Tutorials",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/e6O9QsCGwSTseq5g-mtDGHeQ34AxFMonhO0KRRbtWDw/%3Fq%3Dtbn%3AANd9GcQMLhh9FsCwKbSTABf09rVfToLbeDRqHg8Kow%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
@@ -302,7 +303,7 @@ let article14 = {
 ],
 };
 let article15 = {
-    id: "random-id",
+    id: "15",
     title: "Building a CRUD Application with Laravel (PHP)",
     category: "Tutorials",
     primaryImageUrl: "https://images-ext-1.discordapp.net/external/AYHNfZTuYJjlLV9Ui9eQdXAN_t2n2iKKPxaeQz6o0HQ/%3Fq%3Dtbn%3AANd9GcSICktODoP9K98c1XvRvzWqcQgfon3R_Qowow%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
@@ -323,7 +324,7 @@ let article15 = {
 ],
 };
 let article16 = {
-    id: "random-id",
+    id: "16",
     title: "Introduction to ASP.NET Core MVC",
     category: "Tutorials",
     primaryImageUrl: "https://images-ext-2.discordapp.net/external/H2xgpkcDgRG09mZOUG9zn10Td3UrOuxKbDVOzJl_FRU/%3Fq%3Dtbn%3AANd9GcSC5vNBjyc3AdRSR1rw1SKuQgsNRJjjKjjEXQ%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
@@ -344,7 +345,7 @@ let article16 = {
 ],
 };
 let article17 = {
-    id: "random-id",
+    id: "17",
     title: "Building a GraphQL Server with Apollo Server (Node.js)",
     category: "Tutorials",
     primaryImageUrl: "https://images-ext-1.discordapp.net/external/XY21-fGuOUcDkItDg4BDkfTnpzPNVsXDJxi0fRK9zRM/%3Fq%3Dtbn%3AANd9GcRlQJER3O5mmjjw-zNRp2woHbyvbEiFt7iZU9VF6c405kk8cizIdbpz7xKuVSFFW4z6xk4%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
@@ -365,7 +366,7 @@ let article17 = {
 ],
 };
 let article18 = {
-    id: "random-id",
+    id: "18",
     title: "Securing your Back-End API with JWT Authentication",
     category: "Tutorials",
     primaryImageUrl: "https://images-ext-1.discordapp.net/external/56JOAw8_2JKoq9xKOHBk4HvMGwwXh-vRr4cej8mYMFA/%3Fq%3Dtbn%3AANd9GcTyKHMchVfLsXtGz82Or6PYNZBWhXnQQOL9jw%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images?format=webp",
