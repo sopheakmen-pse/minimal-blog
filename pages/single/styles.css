@@ -142,4 +142,145 @@ margin-top: 50px;
       font-size: 10px;
     }
 } 
+
+.catigory{
+  display: flex;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-between;
   
+}
+.btn{
+  width: 100px;
+  height: 50px;
+  font-size: 1.5rem;
+}
+#articleContainer{
+  position: relative;
+  top: 10%;
+}
+.article{
+  display: flex;
+  width: 70%;
+  height: 350px;
+  justify-content: center;
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-left: 15%;
+}
+.article-info{
+  background-color: #ffff;
+  border-radius: 10px;
+}
+.para{
+  margin-top: 25px;
+  margin-left: 25px;
+  text-align: start;
+  line-height: 2rem;
+}
+.para p{
+  margin-top: 22px;
+}
+.image-info{
+  margin-top: 25px;
+  margin-right: 25px;
+  background-color: #ffff;
+  
+}
+.image-info img{
+  width: 450px;
+  height: 300px;
+  border-radius: 10px;
+  
+}
+.article-info{
+  display: flex;
+  font-size: 1.5rem;
+  /* margin-top: 50px; */
+}
+section{
+  width: 100%;
+  height: 150vh;
+  background-color: rgb(211, 208, 208);
+  margin-top: 50px;
+}
+.recommend{
+  position: relative;
+  font-size: 30px;
+  left: 15%;
+  top: 10%;
+}
+#herotext{
+  line-height: 50px;
+  
+}
+#herotext #title{
+font-weight: bold; 
+background:linear-gradient(60deg,red , yellow);
+-webkit-background-clip: text;
+color: transparent;
+text-align: center;
+font-family:sans-serif;
+font-size:60px;
+margin-top:100px;
+}
+#herotext #title-1{
+text-align:  center;
+font-family:sans-serif;
+font-size:30px;
+margin-top: 50px;
+}
+
+.button-input{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  }
+   #searchInput {
+      padding: 20px;
+      border-radius: 5px 0 0 5px;
+      border: 1px solid #ccc;
+      border-right: none;
+      margin: 0;
+      
+    }
+  
+    #searchButton {
+      padding: 11px 20px;
+      background-color: black;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      border-radius: 0 5px 5px 0;
+      margin: 0;
+     
+      
+    }
+    #title{
+      font-weight: bold; 
+  background:linear-gradient(60deg,red , yellow);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+  font-family:sans-serif;
+  font-size:30px;
+    }
+    #p-title{
+      line-height:2opx;
+      font-family:sans-serif; 
+      font-size:30px;
+    }
+  
+ hr{
+  margin-top: 50px;
+ }   
+.footer-main{
+  width: 100%;
+  height: 20vh;
+}
+#footer{
+  text-align:center; 
+  font-size:25px ; 
+  font-family:sans-serif;
+  margin-top: 50px;
+}
