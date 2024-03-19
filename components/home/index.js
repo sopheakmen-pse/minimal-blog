@@ -383,9 +383,6 @@
 
 
 //data arry
-const articleles =[article1,article2,article3,article4,article5,article6,article7,article8,article9,article10,article11,article12,article13,article14,article15,article16,article17,article18];
-
-
 import articleles from "../../src/js/global.js";
 console.log(articleles.length)
 
