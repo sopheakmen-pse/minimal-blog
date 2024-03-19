@@ -22,6 +22,12 @@
     gap: 20px;
 }
 
+.menu .active {
+    background: -webkit-linear-gradient(#C41740, #EA9C28);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .logo {
     font-weight: bold;
 }
