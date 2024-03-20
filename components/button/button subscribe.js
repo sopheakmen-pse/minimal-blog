@@ -1,7 +1,6 @@
 
 
 
-
 document.getElementById("subscriptionForm").addEventListener("submit", function(event) {
     event.preventDefault(); 
 
