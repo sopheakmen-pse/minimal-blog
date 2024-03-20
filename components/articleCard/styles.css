@@ -1,0 +1,30 @@
+
+
+.card {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid #eee;
+    margin-top: 0.5rem;
+    background-color: #fff;
+}
+
+.card .card-info {
+    flex: 1;
+}
+
+.card .card-image {
+    width: 250px;
+}
+
+.card .card-image img {
+    width: auto;
+    width: 100%;
+}
+
+.card .sub-title {
+    color: #686868;
+}
+

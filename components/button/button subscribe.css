@@ -24,12 +24,12 @@ body {
 }
 #emailInput {
     padding: 10px;
-    border: 1px solid rgb(145, 0, 241);
+
     width: 200px;
 }
 #subscribeButton {
     padding: 12px 20px;
-    background-color: #000000;
+   background-color: #000000;
     color: #fff;
     border: none;
     cursor: pointer;

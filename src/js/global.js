@@ -1,13 +1,14 @@
 
+
 let article1 = {
     id: "1",
     title: "Top 5 Emerging Technologies Shaping Mobile App Development in 2024",
     category: "daily trends",
-    primaryImageUrl: "https://unsplash.com/photos/person-using-phone-and-laptop-gUIJ0YszPig?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
-    secondaryImageUrl: "https://unsplash.com/photos/black-iphone-5-on-brown-wooden-table-A6qNzfJXRGQ?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+    primaryImageUrl: "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    secondaryImageUrl: "https://images.unsplash.com/photo-1596558450268-9c27524ba856?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
     paragraphs: [
-    "1. 5G Integration: With the widespread adoption of 5G technology, mobile app developers are leveraging its high-speed connectivity and low latency to create innovative experiences. Apps can now offer seamless streaming, augmented reality (AR), and virtual reality (VR) features without compromising performance.",
+    " 1 5G Integration: With the widespread adoption of 5G technology, mobile app developers are leveraging its high-speed connectivity and low latency to create innovative experiencesArtificial Intelligence (AI) and Machine Learning (ML): AI and ML continue to revolutionize mobile app development by enabling personalized user experiences, predictive analytics,  ",
     "2. Artificial Intelligence (AI) and Machine Learning (ML): AI and ML continue to revolutionize mobile app development by enabling personalized user experiences, predictive analytics, and natural language processing. Developers are integrating AI-powered chatbots, recommendation systems, and voice assistants to enhance user engagement and streamline interactions.",
     "3. Internet of Things (IoT) Connectivity: IoT devices are becoming increasingly prevalent, and mobile apps are serving as the primary interface to control and monitor connected devices. Developers are focusing on integrating IoT functionalities into apps, allowing users to interact with smart home appliances, wearables, and industrial sensors seamlessly.",
     "4. Blockchain Technology: Blockchain is disrupting various industries, including mobile app development, by offering decentralized and secure solutions for transactions and data management. Developers are exploring blockchain integration for enhancing app security, enabling peer-to-peer transactions, and implementing transparent data sharing mechanisms.",
@@ -23,13 +24,13 @@ let article1 = {
 
 let article2 = {
     id: "2",
-    title: "responsiveDesignParagraphs",
-    category: "daily trands",
-    primaryImageUrl: "https://unsplash.com/photos/a-laptop-computer-sitting-on-top-of-a-wooden-desk-VgN_G9M1zXA",
-    secondaryImageUrl: "https://unsplash.com/photos/black-flat-screen-tv-turned-on-displaying-unk-L8KQIPCODV8",
+    title: "Responsive Design Paragraphs",
+    category: "daily trends",
+    primaryImageUrl: "https://plus.unsplash.com/premium_photo-1678565999588-08fdd0b1410b?q=80&w=1988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    secondaryImageUrl: "https://images.unsplash.com/photo-1581276879432-15e50529f34b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
     paragraphs:  [
-        "1. Responsive design is a crucial aspect of modern front-end development, allowing websites and applications to adapt seamlessly to various screen sizes and devices.",
+        "Responsive design is a crucial aspect of modern front-end development, allowing websites and applications to adapt seamlessly to various screen sizes and devices.With the proliferation of smartphones, tablets, laptops, and desktops, ensuring that a website looks and functions well across different devices is essential for providing a positive user experience.",
         "2. With the proliferation of smartphones, tablets, laptops, and desktops, ensuring that a website looks and functions well across different devices is essential for providing a positive user experience.",
         "3. One of the key principles of responsive design is fluid grids, where elements on the webpage are sized proportionally rather than using fixed measurements.",
         "4. Media queries play a vital role in responsive design by allowing developers to apply different styles based on the characteristics of the device, such as screen width, height, or orientation.",
@@ -42,16 +43,17 @@ let article2 = {
         "11. In summary, responsive design is an essential approach in front-end development, allowing websites and applications to deliver a consistent and optimal user experience across diverse devices and screen sizes."
       ],
 };
+
 let article3 = {
     id: "3",
     title: "The front-end development landscape",
     category: "daily trends",
-    primaryImageUrl: "https://unsplash.com/photos/black-flat-screen-computer-monitor-eYpcLDXHVb0",
-    secondaryImageUrl: "https://unsplash.com/photos/text-NzERTNpnaDw",
+    primaryImageUrl: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    secondaryImageUrl: "https://images.unsplash.com/photo-1610986603166-f78428624e76?q=80&w=2058&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
     paragraphs: [
-      "1. The front-end development landscape is constantly evolving, with new trends emerging regularly to enhance user experiences and streamline development processes.",
-      "2. One of the latest trends gaining traction is the adoption of serverless architecture for front-end applications, which allows developers to focus more on writing code and less on managing infrastructure.",
+      " The front-end development landscape is constantly evolving, with new trends emerging regularly to enhance user experiences and streamline development processes. One of the latest trends gaining traction is the adoption of serverless architecture for front-end applications, which allows developers to focus more on writing code and less on managing infrastructure ",
+      "2. One of the latest trends gaining traction is the adoption of serverless architecture for front-end applications, which allows developers to focus more on writing code and less on managing infrastructure .",
       "3. Another trend in front-end development is the growing popularity of headless CMS (Content Management Systems), which decouples the content management layer from the presentation layer, providing greater flexibility and scalability.",
       "4. Micro frontends have also emerged as a trending approach, enabling teams to break down monolithic front-end applications into smaller, more manageable pieces that can be developed and deployed independently.",
       "5. Progressive Web Apps (PWAs) continue to be a hot topic in front-end development, offering native app-like experiences on the web and providing benefits such as offline functionality and push notifications.",
@@ -68,11 +70,11 @@ let article3 = {
     id: "4",
     title: "Frontend security is a crucial aspect of web development",
     category: "daily trends",
-    primaryImageUrl: "https://unsplash.com/photos/computer-screen-displaying-files-fhAfLtHToCs",
-    secondaryImageUrl: "https://unsplash.com/photos/text-tvHtIGbbjMo",
+    primaryImageUrl: "https://images.unsplash.com/photo-1577648188599-291bb8b831c3?q=80&w=2079&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    secondaryImageUrl: "https://images.unsplash.com/photo-1591267990532-e5bdb1b0ceb8?q=80&w=2027&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
     paragraphs: [
-      "1. Frontend security is a crucial aspect of web development, with daily trends reflecting the constant battle against emerging threats and vulnerabilities.",
+      " Frontend security is a crucial aspect of web development, with daily trends reflecting the constant battle against emerging threats and vulnerabilities.",
       "2. One of the prominent trends in frontend security is the increasing emphasis on client-side security measures, such as Content Security Policy (CSP), which helps mitigate risks associated with cross-site scripting (XSS) attacks.",
       "3. Another trend is the adoption of HTTP/2 and HTTPS encryption to ensure secure communication between clients and servers, protecting sensitive data from interception and tampering.",
       "4. The rise of Single Page Applications (SPAs) has led to a focus on securing client-side JavaScript code to prevent attacks like data tampering and unauthorized access.",
@@ -89,11 +91,11 @@ let article3 = {
     id: "5",
     title: "One of the ongoing trends in frontend development",
     category: "daily trends",
-    primaryImageUrl: "https://unsplash.com/photos/turned-on-macbook-pro-wit-programming-codes-display-f77Bh3inUpE",
-    secondaryImageUrl: "https://unsplash.com/photos/matrix-movie-still-iar-afB0QQw",
+    primaryImageUrl: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    secondaryImageUrl: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
     paragraphs: [
-      "1. Frontend development is constantly evolving, with daily trends often revolving around the comparison of different frameworks and libraries.",
+      "1 Frontend development is constantly evolving, with daily trends often revolving around the comparison of different frameworks and libraries.",
       "2. One of the ongoing trends in frontend development is the comparison between React and Vue.js, two popular JavaScript frameworks known for their simplicity and performance.",
       "3. Developers often weigh the pros and cons of each framework based on factors such as ecosystem maturity, learning curve, community support, and performance optimization.",
       "4. Another comparison trend emerges between Angular and React, both widely used frameworks that offer robust features for building dynamic and scalable web applications.",
@@ -110,11 +112,11 @@ let article3 = {
     id: "6",
     title: "Frontend development trends platform",
     category: "daily trends",
-    primaryImageUrl: "https://unsplash.com/photos/a-computer-screen-with-a-bunch-of-code-on-it-ieic5Tq8YMk",
-    secondaryImageUrl: "https://unsplash.com/photos/black-and-white-striped-textile-FWoq_ldWlNQ",
+    primaryImageUrl: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    secondaryImageUrl: "https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
     paragraphs: [
-      "1. Frontend development trends often intersect with various platforms, shaping the direction of web development practices.",
+      "Frontend development trends often intersect with various platforms, shaping the direction of web development practices.",
       "2. One of the notable trends is the rise of cross-platform development frameworks like React Native and Flutter, enabling developers to build mobile applications for multiple platforms using a single codebase.",
       "3. Progressive Web Apps (PWAs) continue to gain momentum as a platform-agnostic solution, offering native app-like experiences on web browsers across different devices and operating systems.",
       "4. The evolution of web components as a standardized platform-agnostic solution for building reusable UI elements is reshaping frontend development practices, promoting interoperability and component-based architecture.",
@@ -132,11 +134,11 @@ let article3 = {
     id: "7",
     title: "One of the trending development tools ",
     category: "development tools",
-    primaryImageUrl: "https://unsplash.com/photos/a-computer-screen-with-a-bunch-of-code-on-it-1HCb2gPk3ik",
-    secondaryImageUrl: "https://unsplash.com/photos/black-flat-screen-computer-monitor-cYyqhdbJ9TI",
+    primaryImageUrl: "https://images.unsplash.com/photo-1569748130764-3fed0c102c59?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    secondaryImageUrl: "https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
     paragraphs: [
-      "1. Frontend development relies heavily on a multitude of tools and platforms that facilitate the creation of modern web applications.",
+      "1. Frontend development relies heavily on a multitude of tools and platforms that facilitate the creation of modern web applications.ne of the trending development tools in frontend is Visual Studio Code (VS Code), a highly extensible code editor with a rich ecosystem of extensions that enhance productivity",
       "2. One of the trending development tools in frontend is Visual Studio Code (VS Code), a highly extensible code editor with a rich ecosystem of extensions that enhance productivity for developers.",
       "3. Webpack continues to be a popular build tool for frontend projects, providing powerful module bundling capabilities and a flexible configuration system for optimizing code and assets.",
       "4. ESLint and Prettier are indispensable tools for enforcing code quality and style consistency in frontend codebases, helping developers maintain clean and error-free code.",
@@ -153,8 +155,8 @@ let article3 = {
     id: "8",
     title: "Static code analysis tools",
     category: "development tools",
-    primaryImageUrl: "https://unsplash.com/photos/text-X7gKtI54ON0",
-    secondaryImageUrl: "https://unsplash.com/photos/text-yXrl2lkGJ-k",
+    primaryImageUrl: "https://images.unsplash.com/photo-1593720216156-7c5fdbaaffb9?q=80&w=2096&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    secondaryImageUrl: "https://images.unsplash.com/photo-1593720219128-218edc93bdc0?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
     paragraphs: [
         "1. Frontend development relies heavily on a multitude of tools and platforms that facilitate the creation of modern web applications.",
@@ -179,7 +181,7 @@ let article3 = {
     secondaryImageUrl: "https://images.unsplash.com/photo-1593720213681-e9a8778330a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGNvZGUlMjBmcm9udGVuZHxlbnwwfHwwfHx8MA%3D%3D",
     publishDate: "2024-03-01",
     paragraphs: [
-        "1. Frontend development relies heavily on a multitude of tools and platforms that facilitate the creation of modern web applications.",
+        "1. Frontend development relies heavily on a multitude of tools and platforms that facilitate the creation of modern web applications.One of the trending development tools in frontend is Visual Studio Code (VS Code), a highly extensible code editor with a rich ecosystem of extensions that enhance productivity for developers",
         "2. One of the trending development tools in frontend is Visual Studio Code (VS Code), a highly extensible code editor with a rich ecosystem of extensions that enhance productivity for developers.",
         "3. Webpack continues to be a popular build tool for frontend projects, providing powerful module bundling capabilities and a flexible configuration system for optimizing code and assets.",
         "4. ESLint and Prettier are indispensable tools for enforcing code quality and style consistency in frontend codebases, helping developers maintain clean and error-free code.",
@@ -219,11 +221,11 @@ let article3 = {
     id: "11",
     title: "Build tools such as Webpack and Parcel automate tasks",
     category: "development tools",
-    primaryImageUrl: "https://unsplash.com/photos/computer-programming-codes-displayed-on-a-monitor-MgtHZ4zlC1U",
-    secondaryImageUrl:"https://www.istockphoto.com/photo/glowing-python-programming-language-code-on-a-blue-digital-surface-with-a-sphere-gm1413990965-462867622?utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcode&utm_medium=affiliate&utm_source=unsplash&utm_term=code%3A%3A%3A",
+    primaryImageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGRldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D",
+    secondaryImageUrl:"https://media.istockphoto.com/id/1413990965/photo/glowing-python-programming-language-code-on-a-blue-digital-surface-with-a-sphere-grid-design.webp?s=2048x2048&w=is&k=20&c=jrUwl1b5U0LIiP97ei1q7ghpZe91ifAro0ngrjRB9vo=",
     publishDate: "2024-03-01",
     paragraphs: [
-        "1. Frontend development relies heavily on a multitude of tools and platforms that facilitate the creation of modern web applications.",
+        "1. Frontend development relies heavily on a multitude of tools and platforms that facilitate the creation of modern web applications One of the trending development tools in frontend is Visual Studio Code (VS Code), a highly extensible code editor with a rich ecosystem of extensions .",
         "2. One of the trending development tools in frontend is Visual Studio Code (VS Code), a highly extensible code editor with a rich ecosystem of extensions that enhance productivity for developers.",
         "3. Webpack continues to be a popular build tool for frontend projects, providing powerful module bundling capabilities and a flexible configuration system for optimizing code and assets.",
         "4. ESLint and Prettier are indispensable tools for enforcing code quality and style consistency in frontend codebases, helping developers maintain clean and error-free code.",
@@ -241,8 +243,8 @@ let article3 = {
     id: "12",
     title: "Frontend development tools for code editing and management",
     category: "development tools",
-    primaryImageUrl: "https://unsplash.com/photos/a-close-up-of-a-text-description-on-a-computer-screen-842ofHC6MaI",
-    secondaryImageUrl: "https://unsplash.com/photos/digital-code-number-abstract-background-represent-coding-technology-and-programming-languages-00IATt47-Lc",
+    primaryImageUrl: "https://images.unsplash.com/photo-1556075798-4825dfaaf498?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    secondaryImageUrl: "https://plus.unsplash.com/premium_photo-1661882403999-46081e67c401?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
     paragraphs: [
         "1. Frontend development relies heavily on a multitude of tools and platforms that facilitate the creation of modern web applications.",
@@ -263,11 +265,11 @@ let article3 = {
     id: "13",
     title: "NASA relies on a variety of frontend development tools",
     category: "tutorials",
-    primaryImageUrl: "https://unsplash.com/photos/black-flat-screen-computer-monitor-ZS67i1HLllo",
-    secondaryImageUrl: "https://unsplash.com/photos/text-g5jpH62pwes",
+    primaryImageUrl: "https://images.unsplash.com/photo-1592609931095-54a2168ae893?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    secondaryImageUrl: "https://images.unsplash.com/photo-1627398242454-45a1465c2479?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
     paragraphs: [
-        "1. Frontend development relies heavily on a multitude of tools and platforms that facilitate the creation of modern web applications.",
+        "1. Frontend development relies heavily on a multitude of tools and platforms that facilitate the creation of modern web applications.One of the trending development tools in frontend is Visual Studio Code (VS Code), a highly extensible code editor with a rich ecosystem of extensions that enhance productivity for developers",
         "2. One of the trending development tools in frontend is Visual Studio Code (VS Code), a highly extensible code editor with a rich ecosystem of extensions that enhance productivity for developers.",
         "3. Webpack continues to be a popular build tool for frontend projects, providing powerful module bundling capabilities and a flexible configuration system for optimizing code and assets.",
         "4. ESLint and Prettier are indispensable tools for enforcing code quality and style consistency in frontend codebases, helping developers maintain clean and error-free code.",
@@ -284,8 +286,8 @@ let article3 = {
     id: "14",
     title: "Frontend developers on other worlds",
     category: "tutorials",
-    primaryImageUrl: "https://unsplash.com/photos/computer-coding-screengrab-hvSr_CVecVI",
-    secondaryImageUrl: "https://unsplash.com/photos/black-and-white-striped-illustration-oga9Xg0KVnU",
+    primaryImageUrl: "https://images.unsplash.com/photo-1542903660-eedba2cda473?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    secondaryImageUrl: "https://images.unsplash.com/photo-1602345397613-0934a8812d23?q=80&w=1884&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
     paragraphs: [
         "1. Frontend development relies heavily on a multitude of tools and platforms that facilitate the creation of modern web applications.",
@@ -305,11 +307,11 @@ let article3 = {
     id: "15",
     title: "Frameworks and libraries",
     category: "tutorials",
-    primaryImageUrl: "https://unsplash.com/photos/a-computer-screen-with-a-bunch-of-text-on-it-1LLh8k2_YFk",
-    secondaryImageUrl: "https://unsplash.com/photos/black-red-and-white-textile-hbb6GkG6p9M",
+    primaryImageUrl: "https://plus.unsplash.com/premium_photo-1663023612721-e588768ef403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGRldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D",
+    secondaryImageUrl: "https://images.unsplash.com/photo-1594729095022-e2f6d2eece9c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
     paragraphs: [
-        "1. Frontend development relies heavily on a multitude of tools and platforms that facilitate the creation of modern web applications.",
+        "1. Frontend development relies heavily on a multitude of tools and platforms that facilitate the creation of modern web applications.One of the trending development tools in frontend is Visual Studio Code (VS Code), a highly extensible code editor with a rich ecosystem of extensions that enhance productivity for developers",
         "2. One of the trending development tools in frontend is Visual Studio Code (VS Code), a highly extensible code editor with a rich ecosystem of extensions that enhance productivity for developers.",
         "3. Webpack continues to be a popular build tool for frontend projects, providing powerful module bundling capabilities and a flexible configuration system for optimizing code and assets.",
         "4. ESLint and Prettier are indispensable tools for enforcing code quality and style consistency in frontend codebases, helping developers maintain clean and error-free code.",
@@ -326,8 +328,8 @@ let article3 = {
     id: "16",
     title: "Code editors like Visual Studio Code (VS Code)",
     category: "tutorials",
-    primaryImageUrl: "https://unsplash.com/photos/text-0JD-LiIi2CU",
-    secondaryImageUrl: "https://unsplash.com/photos/green-and-black-stripe-textile-gcgves5H_Ac",
+    primaryImageUrl: "https://images.unsplash.com/photo-1593720213681-e9a8778330a7?q=80&w=2044&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    secondaryImageUrl: "https://images.unsplash.com/photo-1547190027-9156686aa2f0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
     paragraphs: [
         "1. Frontend development relies heavily on a multitude of tools and platforms that facilitate the creation of modern web applications.",
@@ -347,11 +349,11 @@ let article3 = {
     id: "17",
     title: "Version control systems",
     category: "tutorials",
-    primaryImageUrl: "https://unsplash.com/photos/green-blue-and-yellow-text-on-computer-screen-O2MdroNurVw",
-    secondaryImageUrl: "https://unsplash.com/photos/turned-on-laptop-computer-BMnhuwFYr7w",
+    primaryImageUrl: "https://images.unsplash.com/photo-1555952494-efd681c7e3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    secondaryImageUrl: "https://images.unsplash.com/photo-1545665277-5937489579f2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
     paragraphs: [
-        "1. Frontend development relies heavily on a multitude of tools and platforms that facilitate the creation of modern web applications.",
+        "1. Frontend development relies heavily on a multitude of tools and platforms that facilitate the creation of modern web applications.One of the trending development tools in frontend is Visual Studio Code (VS Code), a highly extensible code editor with a rich ecosystem of extensions that enhance productivity for developers",
         "2. One of the trending development tools in frontend is Visual Studio Code (VS Code), a highly extensible code editor with a rich ecosystem of extensions that enhance productivity for developers.",
         "3. Webpack continues to be a popular build tool for frontend projects, providing powerful module bundling capabilities and a flexible configuration system for optimizing code and assets.",
         "4. ESLint and Prettier are indispensable tools for enforcing code quality and style consistency in frontend codebases, helping developers maintain clean and error-free code.",
@@ -369,8 +371,8 @@ let article3 = {
     id: "18",
     title: "Frontend development tutorials ",
     category: "tutorials",
-    primaryImageUrl: "https://unsplash.com/photos/a-close-up-of-a-computer-screen-with-a-lot-of-text-on-it-KeFyYzxqmH0",
-    secondaryImageUrl: "https://unsplash.com/photos/turned-on-monitor-displaying-function-digital_best_reviews-gnyA8vd3Otc",
+    primaryImageUrl: "https://images.unsplash.com/photo-1552120476-9ee56c8611f7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    secondaryImageUrl: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
     paragraphs: [
         "1. Frontend development relies heavily on a multitude of tools and platforms that facilitate the creation of modern web applications.",
@@ -386,8 +388,68 @@ let article3 = {
         "11. In summary, frontend development is supported by a diverse ecosystem of development tools and platforms, empowering developers to build high-quality, performant web applications efficiently."
       ],
   };
-  let articles ={ article1, article2, article3, article4, article5, article6, article7, article8, article9, article10,
-    article11, article12, article13, article14, article15, article16, article17, article18};
-    
-    export default articles;
-    
+  let articles =[ 
+    article1, 
+    article2, 
+    article3, 
+    article4, 
+    article5, 
+    article6, 
+    article7, 
+    article8, 
+    article9, 
+    article10,
+    article11, 
+    article12, 
+    article13, 
+    article14, 
+    article15, 
+    article16, 
+    article17, 
+    article18,
+  ];
+ 
+   export default articles ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
