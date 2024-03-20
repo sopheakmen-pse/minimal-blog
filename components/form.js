@@ -1,6 +1,7 @@
-document.getElementById('pharagrap').innerHTML=`
+document.getElementById('pharagrap1').innerHTML=`
 <h1 id="title" style="  
-font-weight: bold; 
+font-weight: bold;
+margin-top:40px; 
 background:linear-gradient(60deg,red , yellow);
 -webkit-background-clip: text;
 color: transparent;

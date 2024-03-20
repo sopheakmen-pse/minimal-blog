@@ -6,9 +6,12 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Single page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../../components/form.css">
+    <link rel="stylesheet" href="../../components/footer/style.css">
+    <!-- <link rel="stylesheet" href="../../components/acticle card/article card.css"> -->
   </head>
   <body>
-    <div class="conteiner">
+    <div class="container">
       <div id="container-navbar"></div>
       <div id="pharagrap"></div>
       <div id="img-1"></div>
@@ -17,11 +20,36 @@
       <div id="pharagrap-2"></div>
       <div id="quote"></div>
       <div id="pharagrap-3"></div>
-    
+    <div class="art">
+       <h1 style="position: relative;font-size: 30px; left: 15%;top: 10%;">Recommended articles</h1>
+        <div id="articleContainer"></div>
+      </div>
+    <section class="search" id="search">
+      <div id="pharagrap1"></div>
+      <div id="subscribe-form">
+          
+          <form id="subscription-form">
+             
+              <div>
+      
+                  <input type="email" id="email" name="email" required   placeholder="Email address">  
+                   <button id="submit">Subscribe</button>
+              </div>
+           
+          </form>
+          <div id="message"></div>
+      </div>
+      <hr>
+          <div id="footer"></div>
+     </section>
+  
     </div>
+    
 
     <script type="module" src="index.js"></script>
     <script type="module" src="../../components/navbar/index.js"></script>
+    <script type="module" src="../../components/form.js"></script>
+   <script type="module" src="../../components/footer/script.js"></script>
   
 
   </body>

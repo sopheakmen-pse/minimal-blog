@@ -16,7 +16,7 @@
 //  <div class ="subscribebtn" style="color:white;><a href="">${navbar.catigory[3]}</a></div>
 // `;
 
-import navbar from "../../components/navbar/index.js";
+// import navbar from "../../components/navbar/index.js";
 
 
 
@@ -40,7 +40,7 @@ AUGUST 13, 2021 • <b> Daily digest </b> </p>`
 
 const imgUrls1 = [
 
-    "https://media.istockphoto.com/id/1205285884/photo/computer-hacker-coding-on-keyboard-on-a-background-of-monitors.webp?s=2048x2048&w=is&k=20&c=iNIa8lpBTdbtm9M0eQwe6kuRvk8oKhE8LFzCRIBywAg=",
+    "https://images-ext-2.discordapp.net/external/VbbaEVCmtmtahmgzNwvANqGvzlNm0TCPCCczbbUq2Z4/%3Fs%3D2048x2048%26w%3Dis%26k%3D20%26c%3DIeXHX0jxqBtXerJDbWPG5PjTHmLNdDDOKDflm-lLfEI%3D/https/media.istockphoto.com/id/1281367929/photo/wooden-table-with-tablet-smartphone-book-and-coffee-cup-include-clipping-path.jpg?format=webp&width=839&height=629",
   ];
  for (let i = 0; i <1 ;i++){
     document.getElementById("img-1").innerHTML+= `
@@ -125,12 +125,13 @@ your business. But what about your daily bread?
     if (articles[i].category === "daily trends"){
        document.getElementById('articleContainer').innerHTML +=`
       <div class="article">
-         <div class="article-info">
+         <div class="article-info"><a href="../../pages/single/index.html?cateory=single page">
             <div class="para">
               ${articles[i].publishDate}
               <h3>${articles[i].title}</h3>
               <p>${articles[i].description}</p>
             </div>
+            </a>
             <div class="image-info">
              <img src="${articles[i].primaryImageUrl}">
             </div>
@@ -146,5 +147,3 @@ your business. But what about your daily bread?
      
      `
 
-import herotext from "../../components/hero/hero.js";
-import handleSearch from "../../components/button/subscribeform.js";

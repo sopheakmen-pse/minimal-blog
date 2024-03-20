@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../home/styles.css">
     <link rel="stylesheet" href="../../components/navbar/styles.css">
     <link rel="stylesheet" href="../../components/acticle card/article card.css">
-    <link rel="stylesheet" href="../../components/button/subscribeform.css">
+    <link rel="stylesheet" href="../../components/form.css">
     <link rel="stylesheet" href="../../components/herotitle/herotitle.css">
 </head>
 <body>
@@ -42,21 +42,32 @@
         
         <div id="articleContainer2"></div>
     </section>
-    <section class="search">
-         <div id="pharagrap"></div>
-         <div class="button-input">
-            <input type="text" id="searchInput" placeholder="Email address">
-            <button id="searchButton">Subscribe</button>
-        </div>
+    <section class="search" id="search">
+    <div id="pharagrap1"></div>
+    <div id="subscribe-form">
+        
+        <form id="subscription-form">
+           
+            <div>
+    
+                <input type="email" id="email" name="email" required   placeholder="Email address">  
+                 <button id="submit">Subscribe</button>
+            </div>
+         
+        </form>
+        <div id="message"></div>
+    </div>
         <div id="footer"></div>
    </section>
+
   
   </div>
 
 
 
     <script type="module" src="index.js"></script>
-
+    <script type="module" src="../../components/form.js"></script>
+    
 
 
 </body>

@@ -1,7 +1,11 @@
-
+.container{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
 
 .title{
-    width: 200%;
+    width: 100%;
     height: auto;
     overflow: hidden;
     display: flex;
