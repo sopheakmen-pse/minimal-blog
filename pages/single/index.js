@@ -1,3 +1,4 @@
+
 import navbar from "../../components/navbar/index.js";
 import herotext from "../../components/hero/hero.js";
 import handleSearch from "../../components/button/subscribeform.js";
@@ -119,9 +120,8 @@ your business. But what about your daily bread?
        `
      };
      };
-  
-     document.getElementById("footer").innerHTML=`
-     <p>Copyright 2021 - Elikem Daniels</p>
-     
-     `
+
+  import herotext from "../../components/hero/hero.js";
+  import handleSearch from "../../components/button/subscribeform.js";
+  import footer from "../../components/footer/script.js";
 
