@@ -215,7 +215,7 @@ const article13 =
   title: "Mastering the Art of Photography: 6 Essential Techniques Every Beginner Should Know",
   description: "Dive into the world of photography with these 6 fundamental techniques that will take your skills to the next level. From understanding exposure to mastering composition, this tutorial will guide you through the basics and help you capture stunning images.",
   category: "tutorials",
-  primaryImageUrl: "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?q=80&w=2052&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  primaryImageUrl: "https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?q=80&w=2101&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
   publishDate: "2024-03-01",
   paragraphs: [
@@ -395,7 +395,7 @@ const article18 =
   title: "Mastering the Art of Photography: 6 Essential Techniques Every Beginner Should Know",
   description: "Dive into the world of photography with these 6 fundamental techniques that will take your skills to the next level. From understanding exposure to mastering composition, this tutorial will guide you through the basics and help you capture stunning images.",
   category: "tutorials",
-  primaryImageUrl: "https://orangematter.solarwinds.com/wp-con",
+  primaryImageUrl: "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   secondaryImageUrl: "https://img.freepik.com/free-vector/1.pn",
   publishDate: "2024-03-01",
   paragraphs: [
@@ -430,7 +430,7 @@ const article7 =
   title: "Mastering the Art of Photography: 6 Essential Techniques Every Beginner Should Know",
   description: "Dive into the world of photography with these 6 fundamental techniques that will take your skills to the next level. From understanding exposure to mastering composition, this tutorial will guide you through the basics and help you capture stunning images.",
   category: "Development tool",
-  primaryImageUrl: "https://orangematter.solarwinds.com/wp-content/uploads/2020/03/istock-1135521404.jpg",
+  primaryImageUrl: "https://images.unsplash.com/photo-1586780807983-950860a50ece?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   secondaryImageUrl: "https://img.freepik.com/free-vector/1.jpg",
   publishDate: "2024-03-01",
   paragraphs: [
@@ -575,7 +575,7 @@ const article11 =
   title: "Mastering the Art of Photography: 6 Essential Techniques Every Beginner Should Know",
   description: "Dive into the world of photography with these 6 fundamental techniques that will take your skills to the next level. From understanding exposure to mastering composition, this tutorial will guide you through the basics and help you capture stunning images.",
   category: "Development tool",
-  primaryImageUrl: "https://orangematter.solarwinds.com/wp-content/uploads/2020/03/istock-1135521404.jpg",
+  primaryImageUrl: "https://images.unsplash.com/photo-1587089879249-87bf7d2972df?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   secondaryImageUrl: "https://img.freepik.com/free-vector/1.jpg",
   publishDate: "2024-03-01",
   paragraphs: [
@@ -614,7 +614,7 @@ const article12 =
   title: "Mastering the Art of Photography: 6 Essential Techniques Every Beginner Should Know",
   description: "Dive into the world of photography with these 6 fundamental techniques that will take your skills to the next level. From understanding exposure to mastering composition, this tutorial will guide you through the basics and help you capture stunning images.",
   category: "Development tool",
-  primaryImageUrl: "https://orangematter.solarwinds.com/wp-content/uploads/2020/03/istock-1135521404.jpg",
+  primaryImageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   secondaryImageUrl: "https://img.freepik.com/free-vector/1.jpg",
   publishDate: "2024-03-01",
   paragraphs: [

@@ -20,12 +20,13 @@ for (let i = 0; i <articles.length; i++){
     if (articles[i].category === "tutorials"){
        document.getElementById('articleContainer1').innerHTML +=`
       <div class="article">
-         <div class="article-info">
+         <div class="article-info"><a href="../../pages/single/index.html?category=sigle page">
             <div class="para">
               ${articles[i].publishDate}
               <h3>${articles[i].title}</h3>
               <p>${articles[i].description}</p>
             </div>
+            </a>
             <div class="image-info">
              <img src="${articles[i].primaryImageUrl}">
             </div>
@@ -34,6 +35,8 @@ for (let i = 0; i <articles.length; i++){
        `
      };
      };
+     import herotext from "../../components/hero/hero.js";
+     import footer from "../../components/footer/script.js";
 
 
 

@@ -10,7 +10,7 @@ margin-right:-20%;
 font-family:sans-serif;
 font-size:65px;
 margin-top:25%;
-">Daily Digest</h1>
+">Daily Trends</h1>
 
 <p style="text-align: right;
 margin-right:-30%; line-height: 40px; font-family:sans-serif; font-size:25px;">
@@ -20,12 +20,13 @@ for (let i = 0; i <articles.length; i++){
     if (articles[i].category === "daily trends"){
        document.getElementById('articleContainer').innerHTML +=`
       <div class="article">
-         <div class="article-info">
+         <div class="article-info"><a href="../../pages/single/index.html?category=sigle page">
             <div class="para">
               ${articles[i].publishDate}
               <h3>${articles[i].title}</h3>
               <p>${articles[i].description}</p>
             </div>
+            </a>
             <div class="image-info">
              <img src="${articles[i].primaryImageUrl}">
             </div>
@@ -34,6 +35,10 @@ for (let i = 0; i <articles.length; i++){
        `
      };
      };
+import herotext from "../../components/hero/hero.js";
+     import footer from "../../components/footer/script.js";
+
+
 
 
 
