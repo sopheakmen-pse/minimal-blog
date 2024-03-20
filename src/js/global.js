@@ -3,7 +3,7 @@
 let article1 = {
     id: "1",
     title: "Top 5 Emerging Technologies Shaping Mobile App Development in 2024",
-    category: "daily trends",
+    category: "daily-trends",
     primaryImageUrl: "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     secondaryImageUrl: "https://images.unsplash.com/photo-1596558450268-9c27524ba856?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
@@ -24,8 +24,8 @@ let article1 = {
 
 let article2 = {
     id: "2",
-    title: "Responsive Design Paragraphs",
-    category: "daily trends",
+    title: "responsiveDesignParagraphs",
+    category: "daily-trends",
     primaryImageUrl: "https://plus.unsplash.com/premium_photo-1678565999588-08fdd0b1410b?q=80&w=1988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     secondaryImageUrl: "https://images.unsplash.com/photo-1581276879432-15e50529f34b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
@@ -47,7 +47,7 @@ let article2 = {
 let article3 = {
     id: "3",
     title: "The front-end development landscape",
-    category: "daily trends",
+    category: "daily-trends",
     primaryImageUrl: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     secondaryImageUrl: "https://images.unsplash.com/photo-1610986603166-f78428624e76?q=80&w=2058&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
@@ -69,12 +69,12 @@ let article3 = {
   let article4 = {
     id: "4",
     title: "Frontend security is a crucial aspect of web development",
-    category: "daily trends",
+    category: "daily-trends",
     primaryImageUrl: "https://images.unsplash.com/photo-1577648188599-291bb8b831c3?q=80&w=2079&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     secondaryImageUrl: "https://images.unsplash.com/photo-1591267990532-e5bdb1b0ceb8?q=80&w=2027&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
     paragraphs: [
-      " Frontend security is a crucial aspect of web development, with daily trends reflecting the constant battle against emerging threats and vulnerabilities.",
+      " Frontend security is a crucial aspect of web development, with daily-trends reflecting the constant battle against emerging threats and vulnerabilities.",
       "2. One of the prominent trends in frontend security is the increasing emphasis on client-side security measures, such as Content Security Policy (CSP), which helps mitigate risks associated with cross-site scripting (XSS) attacks.",
       "3. Another trend is the adoption of HTTP/2 and HTTPS encryption to ensure secure communication between clients and servers, protecting sensitive data from interception and tampering.",
       "4. The rise of Single Page Applications (SPAs) has led to a focus on securing client-side JavaScript code to prevent attacks like data tampering and unauthorized access.",
@@ -90,12 +90,12 @@ let article3 = {
   let article5 = {
     id: "5",
     title: "One of the ongoing trends in frontend development",
-    category: "daily trends",
+    category: "daily-trends",
     primaryImageUrl: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     secondaryImageUrl: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
     paragraphs: [
-      "1 Frontend development is constantly evolving, with daily trends often revolving around the comparison of different frameworks and libraries.",
+      "Frontend development is constantly evolving, with daily-trends often revolving around the comparison of different frameworks and libraries.",
       "2. One of the ongoing trends in frontend development is the comparison between React and Vue.js, two popular JavaScript frameworks known for their simplicity and performance.",
       "3. Developers often weigh the pros and cons of each framework based on factors such as ecosystem maturity, learning curve, community support, and performance optimization.",
       "4. Another comparison trend emerges between Angular and React, both widely used frameworks that offer robust features for building dynamic and scalable web applications.",
@@ -105,13 +105,13 @@ let article3 = {
       "8. GraphQL versus REST API debates are common as developers evaluate the benefits of GraphQL's flexible data querying and type system compared to the simplicity of RESTful architectures.",
       "9. Frameworks like Bootstrap, Tailwind CSS, and Material-UI are often compared for their utility in building responsive and visually appealing user interfaces, with considerations for customization options and performance overhead.",
       "10. Microfrontend architectures are gaining attention, sparking discussions on how they compare to monolithic frontend frameworks in terms of scalability, maintenance, and development velocity.",
-      "11. In summary, daily trends in frontend development often revolve around comparing various frameworks, libraries, and architectural patterns, reflecting the dynamic nature of the technology landscape and the continuous quest for optimal solutions."
+      "11. In summary, daily-trends in frontend development often revolve around comparing various frameworks, libraries, and architectural patterns, reflecting the dynamic nature of the technology landscape and the continuous quest for optimal solutions."
     ],
   };
   let article6 = {
     id: "6",
     title: "Frontend development trends platform",
-    category: "daily trends",
+    category: "daily-trends",
     primaryImageUrl: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     secondaryImageUrl: "https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
@@ -133,7 +133,7 @@ let article3 = {
   let article7 = {
     id: "7",
     title: "One of the trending development tools ",
-    category: "development tools",
+    category: "development-tools",
     primaryImageUrl: "https://images.unsplash.com/photo-1569748130764-3fed0c102c59?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     secondaryImageUrl: "https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
@@ -154,7 +154,7 @@ let article3 = {
   let article8 = {
     id: "8",
     title: "Static code analysis tools",
-    category: "development tools",
+    category: "development-tools",
     primaryImageUrl: "https://images.unsplash.com/photo-1593720216156-7c5fdbaaffb9?q=80&w=2096&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     secondaryImageUrl: "https://images.unsplash.com/photo-1593720219128-218edc93bdc0?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
@@ -176,7 +176,7 @@ let article3 = {
   let article9 = {
     id: "9",
     title: "frontend development security",
-    category: "development tools",
+    category: "development-tools",
     primaryImageUrl: "https://images.unsplash.com/photo-1593720213411-697ba0ac0162?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGNvZGUlMjBmcm9udGVuZHxlbnwwfHwwfHx8MA%3D%3D",
     secondaryImageUrl: "https://images.unsplash.com/photo-1593720213681-e9a8778330a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGNvZGUlMjBmcm9udGVuZHxlbnwwfHwwfHx8MA%3D%3D",
     publishDate: "2024-03-01",
@@ -198,7 +198,7 @@ let article3 = {
   let article10 = {
     id: "10",
     title: "Frontend development tools",
-    category: "development tools",
+    category: "development-tools",
     primaryImageUrl: "https://plus.unsplash.com/premium_photo-1661882403999-46081e67c401?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGNvZGUlMjBmcm9udGVuZHxlbnwwfHwwfHx8MA%3D%3D",
     secondaryImageUrl: "https://images.unsplash.com/photo-1610986602726-19f650133f7a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGNvZGUlMjBmcm9udGVuZHxlbnwwfHwwfHx8MA%3D%3D",
     publishDate: "2024-03-01",
@@ -220,8 +220,8 @@ let article3 = {
   let article11 = {
     id: "11",
     title: "Build tools such as Webpack and Parcel automate tasks",
-    category: "development tools",
-    primaryImageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGRldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D",
+    category: "development-tools",
+    primaryImageUrl: "https://static01.nyt.com/images/2022/04/04/multimedia/15ai-nocode/15ai-nocode-videoSixteenByNineJumbo1600.jpg",
     secondaryImageUrl:"https://media.istockphoto.com/id/1413990965/photo/glowing-python-programming-language-code-on-a-blue-digital-surface-with-a-sphere-grid-design.webp?s=2048x2048&w=is&k=20&c=jrUwl1b5U0LIiP97ei1q7ghpZe91ifAro0ngrjRB9vo=",
     publishDate: "2024-03-01",
     paragraphs: [
@@ -242,7 +242,7 @@ let article3 = {
   let article12 = {
     id: "12",
     title: "Frontend development tools for code editing and management",
-    category: "development tools",
+    category: "development-tools",
     primaryImageUrl: "https://images.unsplash.com/photo-1556075798-4825dfaaf498?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     secondaryImageUrl: "https://plus.unsplash.com/premium_photo-1661882403999-46081e67c401?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     publishDate: "2024-03-01",
