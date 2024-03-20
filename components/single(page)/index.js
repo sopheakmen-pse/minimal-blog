@@ -7,10 +7,13 @@ const UrlParam = new URLSearchParams(Params);
 
 const articleId =UrlParam.get("id");
 
+let article;
+
 console.log(articleles.length)
 
 for (let i=0 ; i<articleles.length; i++) {
     if(articleles[i].id === articleId) {
+      article=articleles[i];
         document.getElementById("single").innerHTML += `
         <div class="image">
         <img src="${articleles[i].primaryImageUrl}" alt="">
@@ -41,8 +44,11 @@ for (let i=0 ; i<articleles.length; i++) {
        
     </div>`
     };
-
-        if(articleles[i].category === "daily trends") {
+};
+let count = 1;
+for (let i=0 ; i<articleles.length; i++) {
+    if(articleles[i].category === article.category) {
+        if(count<=3){
             document.getElementById("article-card").innerHTML += `
             <a href="/components/single(page)/index.html?id=${articleles[i].id}">
             <div class="card">
@@ -58,7 +64,8 @@ for (let i=0 ; i<articleles.length; i++) {
         </div>
         </div>
         </a>
-            `
-        };
-};
-
+            `;
+        }
+        count++;
+    };
+};  
