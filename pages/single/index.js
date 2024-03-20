@@ -123,6 +123,5 @@ your business. But what about your daily bread?
        `
      };
      };
-  import herotext from "../../components/hero/hero.js";
-  import handleSearch from "../../components/button/subscribeform.js";
+  import form from "../../components/form.js";
   import footer from "../../components/footer/script.js";

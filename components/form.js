@@ -6,12 +6,13 @@ background:linear-gradient(60deg,red , yellow);
 color: transparent;
 text-align: center;
 font-family:sans-serif;
-font-size:30px;
+font-size:60px;
+maargin-top:50px;
 ">Personally Newsletter</h1>
 
 
-<p style="line-height: 30px; text-align: center;  font-family:sans-serif; 
-font-size:20px;">A bi-weekly newsletter of design inspiration, resources <br>
+<p id="footer-p" style="line-height: 50px; text-align: center;  font-family:sans-serif; 
+font-size:35px;">A bi-weekly newsletter of design inspiration, resources <br>
  and anything related to career development.</p>`
  
  
@@ -54,3 +55,4 @@ form.addEventListener('submit', function(event) {
 });
 
 
+export default form;

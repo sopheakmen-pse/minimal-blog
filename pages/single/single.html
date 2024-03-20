@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Single page</title>
+    <title>Single</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
   </head>
   <body>
@@ -23,11 +23,26 @@
       <h4 class="recommend">Recommended articles</h4> 
       <div id="articleContainer"></div>
     </section>
+
+
+
     <div id="footer-main">
       <div id="herotext"></div>
-      <div class="button-input">
-        <input type="text" id="searchInput" placeholder="Email address">
-           <button id="searchButton">Subscribe</button>
+      <div id="text"></div>
+      <div id="subscribe-form">
+        <form id="subscription-form">
+          <div>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Email address"
+            />
+            <button id="submit">Subscribe</button>
+          </div>
+        </form>
+        <div id="message"></div>
       </div>
       <hr>
       <div id="footer"></div>
@@ -43,6 +58,5 @@
     <script src="hero.js"></script>
     <script type="module" src="index.js" ></script>
     <script src="form.js"></script>
-    <script src="subscribeform.js"></script>
   </body>
 </html>
