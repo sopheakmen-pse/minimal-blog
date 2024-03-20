@@ -259,7 +259,7 @@ margin-top: 50px;
     #title{
       font-weight: bold; 
   background:linear-gradient(60deg,red , yellow);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   color: transparent;
   text-align: center;
   font-family:sans-serif;

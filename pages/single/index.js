@@ -1,13 +1,10 @@
 
 import navbar from "../../components/navbar/index.js";
-
+import herotext from "../../components/hero/hero.js";
+import handleSearch from "../../components/button/subscribeform.js";
 
 
 document.getElementById("pharagrap") .innerHTML = `
-
-
-
-
 <h1 id="title" style="  
 font-weight: bold; 
 background:linear-gradient(60deg,red , yellow);
@@ -123,6 +120,8 @@ your business. But what about your daily bread?
        `
      };
      };
+
   import herotext from "../../components/hero/hero.js";
   import handleSearch from "../../components/button/subscribeform.js";
   import footer from "../../components/footer/script.js";
+
