@@ -10,7 +10,7 @@
     overflow: hidden;
     margin: auto;
      background-color: white;
-     padding: 13rem;
+     /* padding: 13rem; */
 }
 .btn{
     width: 150px;
@@ -42,4 +42,40 @@
     width: 45%;
     margin:auto ; 
     margin-top: 0.5rem;
+}
+@media only screen and (max-width: 600px){
+    .sction{
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+         background-color: white;
+    }
+    .btn{
+        width: 150px;
+        height: 30px;
+        background-color: #F2F4F7;
+        border-radius: 20px;
+        font-size: 14px;
+        line-height: 20px;
+        /* margin-left: 30%; */
+    }
+    .title{
+        text-align: center;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .title h1{
+        width: 100%;
+        font-size: 35px;
+        margin:auto ;
+        line-height:60px;
+    }
+    .title p{
+        color: #475467;
+        font-size: 20px;
+        line-height: 42px;
+        width: 90%;
+        margin:auto ; 
+        margin-top: 0.5rem;
+    }
 }
