@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HomePage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="logo"> <b>Professionally <sup style="font-size: 13px;">TM</sup></b></div>
+    <div class="menu">
+      <a href="/pages/category/index.html?name=daily trends" class="menu-item">Daily Digest</a>
+      <a href="/pages/category/index.html?name=design tools" class="menu-item">Design Tools</a>
+      <a href="/pages/category/index.html?name=tutorials" class="menu-item">Tutorials</a>
+    </div>
+    <button class="submit-button">Subscribe</button>
+  </nav>  
+   <section>
+    <div class="box">
+      <h1> Minimal blog template for <br>creative expressions</h1>
+      <p style="text-align: center; font-size: 25px;">100% customisable and SEO-friendly blog template <br> for personal and commercial purposes.</p>
+    </div>
+   </section>
+
+    <section class="DailyTrends">
+      <div class="name-box">
+          <h1>Daily Trends</h1>
+          <a href="?category=daily-trends">View all</a>
+      </div>
+      <div id="Daily Trends"></div>
+  </section>
+  
+  <section class="DailyTrends">
+      <div class="name-box">
+          <h1>Development Tools</h1>
+          <a href="?category=development-tools" onclick="click()">View all</a>
+      </div>
+      <div id="Development Tools"></div>
+  </section>
+  
+  <section class="DailyTrends">
+      <div class="name-box">
+          <h1>Tutorials</h1>
+          <a href="?category=tutorials" onclick="click()">View all</a>
+      </div>
+      <div id="Tutorials"></div>
+    </section>
+    <div class="footer">
+      <form action="">
+          <h1>Personally Newsletter</h1>
+          <p>A bi-weekly newsletter of design inspiration, resources  <br>and anything related to career development.</p>
+      </form>
+      <div class="email-box">
+          <i class="fa-solid fa-hippo"></i>
+          <form id="subscriptionForm">
+            <input type="email" id="emailInput" placeholder="Enter your email" required>
+            <button type="submit" id="subscribeButton">Subscribe</button>
+        </form>
+       
+      </div>
+    </div>
+    
+    
+    
+  
+  <script type="module" src="index.js"></script>
+  <script src="../../src/js/global.js"></script>
+</body>
+</html>
