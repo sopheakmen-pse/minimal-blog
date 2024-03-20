@@ -9,7 +9,7 @@
     overflow: hidden;
     margin-top: 5rem;
     background-color: white;
-    padding: 5rem;
+    /* padding: 5rem; */
 }
 
 .title-footer{
@@ -39,7 +39,6 @@
 .box{
     width: 350px;
     display: flex;
-    border: 0.5px black solid;
     margin: auto;
     margin-top: 30px;
 }
@@ -62,4 +61,59 @@ input{
 .btn-sub:hover{
     background-color: white;
     color: #1D2939;
+}
+@media only screen and (max-width: 600px){
+    .footer{
+        width: 100%;
+        overflow: hidden;
+        background-color: white;
+    }
+    
+    .title-footer{
+        width: 100%;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .title-footer h1{
+        width: 100%;
+        font-size: 28px;
+        margin:auto ;
+        line-height: 36.4px;
+    }
+    .title-footer p{
+        color: #475467;
+        font-size: 18px;
+        line-height: 28px;
+        width: 50%;
+        margin-top: 0.5rem;
+    }
+    .box{
+        width: 100%;
+        display: block;
+        overflow: hidden;
+        margin: auto;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    input{
+        width: 85%;
+        padding: 15px;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+    .btn-sub{
+        margin-top: 20px;
+        padding: 18px ;
+        font-size: 14px;
+        width: 91%;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        transition: 3px;
+        border-radius: 10px
+    }
+    .btn-sub:hover{
+        background-color: white;
+        color: #1D2939;
+    }
 }
