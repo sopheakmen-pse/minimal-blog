@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+}
+body {
+    background-color: #333;
+    
+}
+.container{
+    background-color: white;
+    /* background: url(../../images/COVER.png) no-repeat center; */
+    background-size: cover;
+    padding: 100px 40px;
+    text-align: center;
+    color: rgb(115, 73, 212);
+}
+.container p {
+    max-width: 600px;
+    margin: 40px auto;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+#emailInput {
+    padding: 10px;
+
+    width: 200px;
+}
+#subscribeButton {
+    padding: 12px 20px;
+   background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
