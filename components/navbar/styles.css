@@ -73,11 +73,12 @@ header{
 }
 /* component hero */
 .hero h1{
-    font-size:  76px;
+    font-size:  96px;
     text-align: center;
     background-image: linear-gradient(to right, #C41740 , #EA9C28);
     -webkit-background-clip: text;
     color: transparent;
+    font-weight: 700;
     margin-top: 1%;
 }
 .hero p{

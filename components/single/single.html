@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/components/navbar/styles.css">
-    <link rel="stylesheet" href="/components/category/style.css">
-    <link rel="stylesheet" href="/components/footer/style.css">
+     <link rel="stylesheet" href="/components/navbar/styles.css">
+     <link rel="stylesheet" href="single.css">
+     <link rel="stylesheet" href="/components/footer/style.css">
 </head>
 <body>
     <section style="background-color: white; padding-bottom: 50px;">
         <header style="box-shadow: 0px 0px 15px 1px rgba(128, 128, 128, 0.659);">
             <div class="logo">
-                <a href="" class="nav-branding">Personally <sup>TM</sup></a>
+                <a href="/pages/home/index.html" class="nav-branding">Personally <sup>TM</sup></a>
             </div>
             <div class="navbar" id="navbar"></div>
             <a href="#email" class="subscribe">Subscribe</a>
@@ -24,28 +24,16 @@
         </header>
         <div id="hero" class="hero"></div>
     </section>
-    <section class="DailyTrends">
-        <div class="name-box">
-            <h1>Daily Trends</h1>
-            <a href="/pages/category/categorypage.html?category=dailytrends" >View all</a>
-        </div>
-        <div id="DailyTrends"></div>
-    </section>
-    <section class="DailyTrends">
-        <div class="name-box">
-            <h1>Development Tools</h1>
-            <a href="/pages/categorypage.html?category=developmenttools" onclick="click()">View all</a>
-        </div>
-        <div id="DevelopmentTools"></div>
-    </section>
-    <section class="DailyTrends">
-        <div class="name-box">
-            <h1>Tutorails</h1>
-            <a href="/pages/category/categorypage.html?category=tutorails" onclick="click()">View all</a>
-        </div>
-        <div id="Tutorails"></div>
-    </section>
-    <div class="container" style="background-color: white; padding-top: 30px; margin-top: 30px;">
+      
+    <div id="single-ariticle">
+        
+    </div>
+    <div class="article-bottom">
+        <h3>Recommended articles</h3>
+           <div id="article-bottom"></div>
+    </div>
+
+    <div class="container">
         <div class="footer">
         <h1>Personally Newsletter</h1>
         <p>A bi-weekly newsletter of design inspiration, resources <br>
@@ -62,7 +50,7 @@
       </div>
 </div>
    <script src="/components/footer/script.js"></script>
-    <script type="module" src="/components/category/home.js"></script>
-    <script src="/components/navbar/index.js"></script>
+
+    <script  type="module"  src="single.js"></script>
 </body>
 </html>

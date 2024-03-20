@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="categorypage.css">
     <link rel="stylesheet" href="/components/navbar/styles.css">
     <link rel="stylesheet" href="/components/button/styles.css">
+    <link rel="stylesheet" href="/components/footer/style.css">
 </head>
 <body>
     <section>
-    <header>
+    <header style="box-shadow: 0px 0px 15px 1px rgba(128, 128, 128, 0.659);">
         <div class="logo">
             <a href="/pages/home/index.html" class="nav-branding">Personally <sup>TM</sup></a>
         </div>
         <div class="navbar" id="navbar"></div>
-        <a href="" class="subscribe">Subscribe</a>
+        <a href="#button" class="subscribe">Subscribe</a>
         <div class="humburger">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -26,18 +27,41 @@
     <div id="hero" class="hero"></div>
     </section>
 
+    
+    <div class="contain-article">  
+       <div id="each-article-bar"></div>
+       <header class="header1">
+        <a href="" class="subscribe-1">More article</a>
+       </header>
+    </div>
 
-    <section style="margin-top: -150px; margin-bottom: 20px;">
+    <!-- <section style="margin-top: -150px; margin-bottom: 20px; background-color: blue;">
         <a href="/components/category/index.html"></a>
         <a href="/components/category/categorypage.html?category=dailytrends"></a>
         <a href="/components/category/categorypage.html?category=developmenttools"></a>
         <a href="/components/category/categorypage.html?category=tutorails"></a>  
-    </section>
+    </section> -->
 
-    <header class="header1">
-        <a href="" class="subscribe-1">More article</a>
-   </header>
+
+
+   <div class="container">
+    <div class="footer">
+    <h1>Personally Newsletter</h1>
+    <p>A bi-weekly newsletter of design inspiration, resources <br>
+    and anything related to career development. 
+  </p>
+  <form id="button">
+    <input type="email" id="email" name="gmail" placeholder="Email address" required>
+   <button type="submit">Subscribe</button>
+    <p id="subscribeMessage"></p>
+    </form>
+  </div>
+  <div class="p">
+    <p>Copyright 2021 - Elikem Daniels</p>
+  </div>
+</div>
+    <script src="/components/footer/script.js"></script>
     <script type="module" src="categorypage.js"></script>
-    <script src="/components/navbar/index.js"></script>
+    <!-- <script src="/components/navbar/index.js"></script> -->
 </body>
 </html>

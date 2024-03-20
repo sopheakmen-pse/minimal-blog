@@ -30,6 +30,7 @@ const links = [
 createNavbar(links);
 
 // hero
+
 document.getElementById("hero") .innerHTML =`
 <button>👋 Meet Personally</button>
 <h1>Minimal blog template for <br> creative expressions</h1>
@@ -37,3 +38,25 @@ document.getElementById("hero") .innerHTML =`
 
 `;
 
+// if (links[0,1,2].url === "/components/category/categorypage.html?category=dailytrends"){
+//     document.getElementById("hero") .innerHTML =`
+// <button>👋 Hello my friends</button>
+// <h1>Minimal blog template for <br> creative expressions</h1>
+// <p>100% customisable and SEO-friendly blog template <br> for personal and commercial purposes.</p>
+
+// `
+// }else if (links[0,1,2].url === "/components/category/categorypage.html?category=developmenttools"){
+//     document.getElementById("hero") .innerHTML =`
+// <button>👋 Nigga</button>
+// <h1>Minimal blog template for <br> creative expressions</h1>
+// <p>100% customisable and SEO-friendly blog template <br> for personal and commercial purposes.</p>
+
+// `
+// }else if (links[0,1,2].url === "/components/category/categorypage.html?category=tutorails"){
+//     document.getElementById("hero") .innerHTML =`
+// <button>👋 ni hoa ma</button>
+// <h1>Minimal blog template for <br> creative expressions</h1>
+// <p>100% customisable and SEO-friendly blog template <br> for personal and commercial purposes.</p>
+
+// `
+// };

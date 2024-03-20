@@ -9,7 +9,7 @@ for (let i = 0; i < 3; i++) {
         <div class="each-box">
         <div class="txt">
         <p>${articles[i].publishDate}</p>
-        <a href="">${articles[i].title}</a>
+        <a href="/components/single/single.html?id=${articles[i].id}">${articles[i].title}</a>
         <p>${articles[i].paragraphs[0]}</p>
         </div>
         <div class="images"><img src="${articles[i].primaryImageUrl}"></img></div>
@@ -24,7 +24,7 @@ for (let i = 0; i < 3; i++) {
         <div class="each-box">
         <div class="txt">
         <p>${articles[i].publishDate}</p>
-        <a href="">${articles[i].title}</a>
+        <a href="/components/single/single.html?id=${articles[i].id}">${articles[i].title}</a>
         <p>${articles[i].paragraphs[0]}</p>
         </div>
         <div class="images"><img src="${articles[i].primaryImageUrl}"></img></div>
@@ -38,7 +38,7 @@ for (let i = 0; i < 3; i++) {
         <div class="each-box">
         <div class="txt">
         <p>${articles[i].publishDate}</p>
-        <a href="">${articles[i].title}</a>
+        <a href="/components/single/single.html?id=${articles[i].id}">${articles[i].title}</a>
         <p>${articles[i].paragraphs[0]}</p>
         </div>
         <div class="images"><img src="${articles[i].primaryImageUrl}"></img></div>

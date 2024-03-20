@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#single-ariticle{
+    width: 100%;
+}
+.each-article{
+    width: 50%;
+    height: auto;
+    margin:auto ;
+}
+.each-article p{
+    font-weight: 250;
+}
+.date-category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagess{
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.imagess img{
+    border-radius: 25px;
+    width: 100%;
+    object-fit: cover;
+}
+.txt1{
+    width: 100%;  
+}
+.txt1 p{
+     text-align: justify;
+     line-height: 1.5;
+     margin: 20px 0px;
+     font-size: 18px;
+     font-weight: 350;
+}
+.txt2{
+    width: 100%;  
+}
+.txt2 p{
+     text-align: justify;
+     line-height: 1.5;
+     margin: 20px 0px;
+     font-size: 18px;
+     font-weight: 350;
+}
+.txt2 :nth-child(1){
+    margin-top: 60px;
+}
+.txt2 :nth-child(3){
+    font-size: 25px;
+    font-weight: bold;
+    border-left: 10px solid orangered;
+    margin-left: -40px;
+}
+.qoaut{
+    padding-left: 30px;
+}
+.article-bottom{
+    margin-top: 80px;
+    background-color: #F2F4F7;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.article-bottom h3{
+    margin-left: 15%;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+/* #each-article-bar{
+    background-color:#F2F4F7;
+} */
+.each-box{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    background-color: white;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    border-radius: 12px;
+}
+.txt{
+    width: 60%;
+    height: auto;
+}
+.txt p{
+    color: rgb(110, 106, 106);
+    font-weight: 50;
+}
+.txt :nth-child(1){
+    line-height: 4;
+}
+.txt :nth-child(3){
+    line-height: 2;
+    padding-bottom: 25px;
+}
+.txt a{
+    line-height: 2;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+.images{
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.images img{
+    object-fit: cover;
+    width: 50%;
+    border-radius: 20px;
+    height: auto;
+}
