@@ -1,5 +1,4 @@
 import articles from "../../src/js/global.js";
-
 document.addEventListener("DOMContentLoaded", function() {
   const menuItems = document.querySelectorAll('.menu-item');
 
@@ -26,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 for (let i = 0; i < 3; i++) {
-  if (articles[i].category === "daily trends"){
+  if (articles[i].category === "Daily-Trends"){
       document.getElementById('Daily Trends').innerHTML += `
       <div class="contain-box">
       <div class="each-box">
@@ -43,7 +42,7 @@ for (let i = 0; i < 3; i++) {
 
 
 for (let i = 0; i <articles.length; i+=2) {
-  if (articles[i].category === "development tools"){
+  if (articles[i].category === "Development-Tools"){
       document.getElementById('Development Tools').innerHTML += `
       <div class="contain-box">
       <div class="each-box">
@@ -60,7 +59,7 @@ for (let i = 0; i <articles.length; i+=2) {
 
 
 for (let i = 0; i <articles.length; i+=2) {
-  if (articles[i].category === "tutorials"){
+  if (articles[i].category === "Tutorials"){
       document.getElementById('Tutorials').innerHTML += `
       <div class="contain-box">
       <div class="each-box">

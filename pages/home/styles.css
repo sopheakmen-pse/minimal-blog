@@ -226,31 +226,6 @@ body{
   font-size: 30px;
  
 }
-@media (max-width: 1024px) {
-  .name-box {
-    flex-direction: column;
-    align-items: center; /* Center items vertically */
-  }
-
-  .each-box {
-    padding: 15px;
-  }
-
-  .txt p {
-    font-size: 18px; /* Reduce font size for better readability on tablets */
-  }
-
-  .txt a {
-    font-size: 20px;
-  }
-
-  .images {
-    justify-content: center; /* Center images on tablets */
-    width: 500px;
-  }
-}
-
-
 
 
 

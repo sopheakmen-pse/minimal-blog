@@ -182,6 +182,7 @@ nav {
 .txt p{
   color: white(110, 106, 106);
   font-weight: 50;
+  font-size: 20px;
 }
 .txt :nth-child(1){
   line-height: 4;
