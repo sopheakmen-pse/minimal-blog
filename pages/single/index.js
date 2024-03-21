@@ -80,7 +80,7 @@ for (let i=0 ; i<articleles.length; i++) {
 
 }; 
 for (let i = 0; i < 4; i++) {
-  if (articles[i].category === "daily trends"){
+  if (articles[i].category === "Daily-Trends"){
       document.getElementById('Daily Trends').innerHTML += `
       <div class="contain-box">
       <div class="each-box">
