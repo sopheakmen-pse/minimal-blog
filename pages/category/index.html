@@ -1,47 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Navbar</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Daily Digest</title>
 </head>
+
 <body>
 
-<nav id="navbar">
-  <div class="logo"> <b>Professionally</b></div>
-  <div class="menu">
-    <a href="#" class="menu-item">Daily Digest</a>
-    <a href="#" class="menu-item">Design Tools</a>
-    <a href="#" class="menu-item">Tutorials</a>
-  </div>
-  <button class="submit-button">Submit</button>
-</nav>
-<div id="paragraph"></div>
-<section class="DailyTrends">
-  <div class="name-box">
-      <h1>DailyTrends</h1>
-      <a href="" >View all</a>
-  </div>
-  <div id="DailyTrends">
-      
-  </div>
-</section>
-<!-- <section class="DailyTrends">
-  <div class="name-box">
-      <h1>DevelopmentTools</h1>
-      <a href="" onclick="click()">View all</a>
-  </div>
-  <div id="DevelopmentTools"></div>
-</section>
-<section class="DailyTrends">
-  <div class="name-box">
-      <h1>Tutorails</h1>
-      <a href="" onclick="click()">View all</a>
-  </div>
-  <div id="Tutorails"></div>
-</section> -->
-<script src="index.js"></script>
+  <nav id="navbar">
+    <div class="logo"> <b>Professionally <sup style="font-size: 13px;">TM</sup></b></div>
+    <div class="menu">
+      <a href="/pages/category/index.html?category=Daily-Trends" class="menu-item">Daily Trends</a>
+      <a href="/pages/category/index.html?category=Development-Tools" class="menu-item">Development Tools</a>
+      <a href="/pages/category/index.html?category=Tutorials" class="menu-item">Tutorials</a>
+    </div>
+    <button class="submit-button">Submit</button>
+  </nav>
+  <script src="index.js"></script>
 
+
+  <div id="paragraph"></div>
+
+  <div style="background-color: rgb(246, 244, 241);  padding: 50px; height: 2050px;" id="Daily Digest">
+    <div id="Daily Digest"></div>
+    <div id="Tutorials"></div>
+
+    <div class="button">
+      <p>More article</p>
+    </div>
+
+
+  </div>
+
+  <div class="container">
+    <form action="" style="background-color: white;">
+      <h1 style="font-weight: bold;
+            background: linear-gradient(60deg,rgb(183, 3, 3),rgb(209, 196, 12));
+            -webkit-background-clip: text;
+            color: transparent; font-size: 45px;">Personally Newsletter</h1>
+      <p>A bi-weekly newsletter of design inspiration, resources and anything related to career development.</p>
+    </form>
+    <div class="email-box">
+      <i class="fa-solid fa-hippo"></i>
+      <form id="subscriptionForm" style="background-color: white;">
+        <input type="email" id="emailInput" placeholder="Enter your email" required>
+        <button type="submit" id="subscribeButton">Subscribe</button>
+      </form>
+
+    </div>
+  </div>
+  <script src="button subscribe.js"></script>
+  <script type="module" src="index.js"></script>
 </body>
 </html>
