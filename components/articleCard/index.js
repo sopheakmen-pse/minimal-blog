@@ -1,8 +1,8 @@
 function createArticleCard(article) {
-    const card = document.createElement("a");
-    card.setAttribute("href", `/pages/single/single.html?id=${article.id}`);
-    card.classList.add("card");
-    card.innerHTML = `
+  const card = document.createElement("a");
+  card.setAttribute("href", `/pages/single/index.html?id=${article.id}`);
+  card.classList.add("card");
+  card.innerHTML = `
         <div class="card-info">
             <span class="sub-title">${article.publishDate}</span>
             <h2 class="title">${article.title}</h2>
@@ -12,9 +12,8 @@ function createArticleCard(article) {
             <img src="${article.primaryImageUrl}" alt="article-image">
         </div>
     `;
-    return card;
+  return card;
 }
-
 
 // Test article card component
 // const article = {
